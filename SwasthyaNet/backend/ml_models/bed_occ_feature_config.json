@@ -1,0 +1,57 @@
+{
+  "task": "bed_occupancy_forecasting",
+  "horizons": [
+    "t+1",
+    "t+7",
+    "t+14"
+  ],
+  "targets": [
+    "target_occ_t1",
+    "target_occ_t7",
+    "target_occ_t14"
+  ],
+  "categorical_features": [
+    "ward_name",
+    "centre_type",
+    "district_id",
+    "day_of_week",
+    "day_of_month",
+    "month"
+  ],
+  "numerical_features": [
+    "total_beds",
+    "current_occupied_beds",
+    "current_available_beds",
+    "current_occupancy_rate",
+    "occupied_lag_1d",
+    "occupied_lag_2d",
+    "occupied_lag_7d",
+    "occupied_lag_14d",
+    "occupied_7d_mean",
+    "occupied_14d_mean",
+    "occupied_7d_std",
+    "is_weekend",
+    "is_monsoon"
+  ],
+  "all_features": [
+    "ward_name",
+    "centre_type",
+    "district_id",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "total_beds",
+    "current_occupied_beds",
+    "current_available_beds",
+    "current_occupancy_rate",
+    "occupied_lag_1d",
+    "occupied_lag_2d",
+    "occupied_lag_7d",
+    "occupied_lag_14d",
+    "occupied_7d_mean",
+    "occupied_14d_mean",
+    "occupied_7d_std",
+    "is_weekend",
+    "is_monsoon"
+  ]
+}

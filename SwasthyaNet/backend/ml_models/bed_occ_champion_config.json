@@ -1,0 +1,35 @@
+{
+  "t+1": {
+    "selected_model": "Tuned LightGBM Regressor",
+    "target_col": "target_occ_t1",
+    "model_file": "bed_occ_t+1_champion_lgb.joblib",
+    "test_mae_beds": 1.01,
+    "test_rmse": 1.42,
+    "test_mape_percent": 24.5,
+    "baseline_mae_beds": 1.07,
+    "baseline_mape_percent": 25.2,
+    "mae_improvement_pct": 4.9
+  },
+  "t+7": {
+    "selected_model": "Tuned LightGBM Regressor",
+    "target_col": "target_occ_t7",
+    "model_file": "bed_occ_t+7_champion_lgb.joblib",
+    "test_mae_beds": 1.62,
+    "test_rmse": 2.3,
+    "test_mape_percent": 37.4,
+    "baseline_mae_beds": 1.95,
+    "baseline_mape_percent": 44.5,
+    "mae_improvement_pct": 17.2
+  },
+  "t+14": {
+    "selected_model": "Tuned LightGBM Regressor",
+    "target_col": "target_occ_t14",
+    "model_file": "bed_occ_t+14_champion_lgb.joblib",
+    "test_mae_beds": 1.72,
+    "test_rmse": 2.53,
+    "test_mape_percent": 39.3,
+    "baseline_mae_beds": 2.16,
+    "baseline_mape_percent": 47.5,
+    "mae_improvement_pct": 20.2
+  }
+}

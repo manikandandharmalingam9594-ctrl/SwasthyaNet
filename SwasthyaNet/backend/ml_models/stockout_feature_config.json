@@ -1,0 +1,47 @@
+{
+  "task": "medicine_stockout_prediction",
+  "target": "days_until_stockout",
+  "categorical_features": [
+    "centre_type",
+    "district_id",
+    "medicine_category",
+    "day_of_week",
+    "month"
+  ],
+  "numerical_features": [
+    "current_stock",
+    "minimum_stock",
+    "maximum_stock",
+    "stock_to_min_ratio",
+    "days_since_last_restock",
+    "last_restock_quantity",
+    "dispensed_qty_7d_avg",
+    "dispensed_qty_14d_avg",
+    "dispensed_qty_30d_avg",
+    "dispensed_qty_7d_std",
+    "consumption_trend_7_30",
+    "is_weekend",
+    "is_monsoon"
+  ],
+  "all_features": [
+    "centre_type",
+    "district_id",
+    "medicine_category",
+    "day_of_week",
+    "month",
+    "current_stock",
+    "minimum_stock",
+    "maximum_stock",
+    "stock_to_min_ratio",
+    "days_since_last_restock",
+    "last_restock_quantity",
+    "dispensed_qty_7d_avg",
+    "dispensed_qty_14d_avg",
+    "dispensed_qty_30d_avg",
+    "dispensed_qty_7d_std",
+    "consumption_trend_7_30",
+    "is_weekend",
+    "is_monsoon"
+  ],
+  "max_horizon_days": 60.0
+}
