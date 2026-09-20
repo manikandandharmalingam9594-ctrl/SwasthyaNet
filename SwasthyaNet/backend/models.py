@@ -186,6 +186,8 @@ class User(Base):
     centre_id = Column(Integer, ForeignKey("health_centres.centre_id"))
     language = Column(String(20))
     is_active = Column(Boolean, default=True)
+    is_activated = Column(Boolean, default=False)
+    must_change_password = Column(Boolean, default=True)
     created_at = Column(DateTime, server_default=func.now())
     district_id = Column(Integer, ForeignKey("districts.district_id"))
     

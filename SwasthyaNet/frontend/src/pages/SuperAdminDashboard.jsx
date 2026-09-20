@@ -56,6 +56,16 @@ const SuperAdminDashboard = () => {
   };
 
   useEffect(() => {
+    const handleTabEvent = (e) => {
+      if (e.detail?.tab) {
+        setActiveTab(e.detail.tab);
+      }
+    };
+    window.addEventListener('swasthyanet-tab-change', handleTabEvent);
+    return () => window.removeEventListener('swasthyanet-tab-change', handleTabEvent);
+  }, []);
+
+  useEffect(() => {
     const fetchSuperAdminData = async () => {
       try {
         setIsLoading(true);
@@ -198,21 +208,21 @@ const SuperAdminDashboard = () => {
                 </span>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <span className="text-sm text-slate-600 hidden sm:inline">{user?.email}</span>
+            <div className="flex items-center space-x-2 sm:space-x-4">
+              <span className="text-xs sm:text-sm text-slate-600 hidden md:inline truncate max-w-[180px]">{user?.email}</span>
               <button 
                 onClick={handleLogout}
-                className="inline-flex items-center px-3 py-2 border border-slate-300 text-sm leading-4 font-medium rounded-md text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition"
+                className="inline-flex items-center px-2.5 sm:px-3 py-1.5 sm:py-2 border border-slate-300 text-xs sm:text-sm leading-4 font-medium rounded-md text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition"
               >
-                <LogOut className="h-4 w-4 mr-2" />
-                Logout
+                <LogOut className="h-3.5 w-3.5 sm:h-4 sm:w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Logout</span>
               </button>
             </div>
           </div>
         </div>
       </nav>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         
         {/* Error Alert */}
         {error && (
@@ -229,38 +239,38 @@ const SuperAdminDashboard = () => {
         )}
 
         {/* Tab Navigation */}
-        <div className="flex items-center space-x-3 mb-6 border-b border-slate-200 pb-3">
+        <div className="flex items-center space-x-2 sm:space-x-3 mb-6 border-b border-slate-200 pb-3 overflow-x-auto no-scrollbar whitespace-nowrap">
           <button
             onClick={() => setActiveTab('overview')}
-            className={`inline-flex items-center px-4 py-2 text-sm font-semibold rounded-lg transition ${
+            className={`inline-flex items-center px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition shrink-0 ${
               activeTab === 'overview'
                 ? 'bg-indigo-600 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
             }`}
           >
-            <LayoutDashboard className="h-4 w-4 mr-2" />
+            <LayoutDashboard className="h-4 w-4 mr-1.5 sm:mr-2" />
             Overview & Analytics
           </button>
           <button
             onClick={() => setActiveTab('ai_insights')}
-            className={`inline-flex items-center px-4 py-2 text-sm font-semibold rounded-lg transition ${
+            className={`inline-flex items-center px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition shrink-0 ${
               activeTab === 'ai_insights'
                 ? 'bg-purple-600 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
             }`}
           >
-            <Sparkles className="h-4 w-4 mr-2 text-purple-400" />
+            <Sparkles className="h-4 w-4 mr-1.5 sm:mr-2 text-purple-400" />
             System AI Insights & Forecasting
           </button>
           <button
             onClick={() => setActiveTab('users')}
-            className={`inline-flex items-center px-4 py-2 text-sm font-semibold rounded-lg transition ${
+            className={`inline-flex items-center px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition shrink-0 ${
               activeTab === 'users'
                 ? 'bg-indigo-600 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
             }`}
           >
-            <UserCheck className="h-4 w-4 mr-2" />
+            <UserCheck className="h-4 w-4 mr-1.5 sm:mr-2" />
             User Management
           </button>
         </div>

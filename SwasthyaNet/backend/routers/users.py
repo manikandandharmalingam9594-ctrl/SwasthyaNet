@@ -108,22 +108,113 @@ def create_user(user_in: schemas.UserCreate, db: Session = Depends(get_db), curr
             if target_role == "CHC_STAFF" and centre.centre_type != "CHC":
                 raise HTTPException(status_code=400, detail=f"Cannot assign CHC_STAFF to a {centre.centre_type} centre")
 
-    # 5. Create new user with hashed password
+    # 5. Determine or Generate Temporary Password
+    raw_password = user_in.password
+    if not raw_password or not raw_password.strip():
+        from email_service import generate_temporary_password
+        raw_password = generate_temporary_password(12)
+
+    # 6. Create new user with hashed password and pending activation flags
     new_user = models.User(
         name=user_in.name,
         email=user_in.email,
-        password_hash=get_password_hash(user_in.password),
+        password_hash=get_password_hash(raw_password),
         role=target_role,
         centre_id=assigned_centre_id,
         district_id=assigned_district_id,
         language=user_in.language or "en",
-        is_active=user_in.is_active if user_in.is_active is not None else True
+        is_active=user_in.is_active if user_in.is_active is not None else True,
+        is_activated=False,
+        must_change_password=True
     )
     
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
+
+    # 7. Generate Activation Token & Send Onboarding Email
+    try:
+        from email_service import create_activation_token, send_activation_email
+        
+        centre_name = None
+        district_name = None
+        if new_user.centre_id:
+            c = db.query(models.HealthCentre).filter(models.HealthCentre.centre_id == new_user.centre_id).first()
+            if c:
+                centre_name = c.centre_name
+        if new_user.district_id:
+            d = db.query(models.District).filter(models.District.district_id == new_user.district_id).first()
+            if d:
+                district_name = d.district_name
+                
+        token = create_activation_token(user_id=new_user.user_id, email=new_user.email, role=new_user.role)
+        send_activation_email(
+            to_email=new_user.email,
+            name=new_user.name,
+            role=new_user.role,
+            temp_password=raw_password,
+            activation_token=token,
+            centre_name=centre_name,
+            district_name=district_name
+        )
+    except Exception as e:
+        print(f"[ERROR] Failed to dispatch activation email: {e}")
+
     return new_user
+
+@router.post("/{user_id}/resend-activation")
+def resend_activation_email(
+    user_id: int, 
+    db: Session = Depends(get_db), 
+    current_user: dict = Depends(get_current_user)
+):
+    target_user = db.query(models.User).filter(models.User.user_id == user_id).first()
+    if not target_user:
+        raise HTTPException(status_code=404, detail="User not found")
+        
+    caller_role = current_user.get("role")
+    if caller_role == "DISTRICT_ADMIN":
+        if target_user.district_id != current_user.get("district_id"):
+            raise HTTPException(status_code=403, detail="Cannot manage users outside your district")
+            
+    from email_service import generate_temporary_password, create_activation_token, send_activation_email
+    
+    # Generate new temporary password and reset activation flag
+    new_temp_pwd = generate_temporary_password(12)
+    target_user.password_hash = get_password_hash(new_temp_pwd)
+    target_user.must_change_password = True
+    target_user.is_activated = False
+    db.commit()
+    db.refresh(target_user)
+    
+    centre_name = None
+    district_name = None
+    if target_user.centre_id:
+        c = db.query(models.HealthCentre).filter(models.HealthCentre.centre_id == target_user.centre_id).first()
+        if c:
+            centre_name = c.centre_name
+    if target_user.district_id:
+        d = db.query(models.District).filter(models.District.district_id == target_user.district_id).first()
+        if d:
+            district_name = d.district_name
+            
+    token = create_activation_token(user_id=target_user.user_id, email=target_user.email, role=target_user.role)
+    dispatch_res = send_activation_email(
+        to_email=target_user.email,
+        name=target_user.name,
+        role=target_user.role,
+        temp_password=new_temp_pwd,
+        activation_token=token,
+        centre_name=centre_name,
+        district_name=district_name
+    )
+    
+    return {
+        "status": "success",
+        "message": f"Activation email and new temporary password sent to {target_user.email}",
+        "email_dispatched": dispatch_res.get("sent", True),
+        "method": dispatch_res.get("method", "none")
+    }
 
 @router.patch("/{user_id}/status", response_model=schemas.User)
 def update_user_status(

@@ -17,13 +17,22 @@ const AiBedForecastSection = ({ centreId, wards = [], title = "AI Bed Occupancy 
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (wards.length > 0 && !selectedWardId) {
-      setSelectedWardId(wards[0].ward_id);
+    if (wards && wards.length > 0) {
+      const match = wards.find(w => w.ward_id === selectedWardId);
+      if (!match) {
+        setSelectedWardId(wards[0].ward_id);
+      }
+    } else {
+      setSelectedWardId(null);
+      setForecastData(null);
+      setLoading(false);
     }
-  }, [wards]);
+  }, [centreId, wards]);
 
   const fetchBedForecast = async (wardId) => {
     if (!centreId || !wardId) return;
+    if (wards.length > 0 && !wards.some(w => w.ward_id === wardId)) return;
+
     try {
       setLoading(true);
       setError(null);
@@ -38,7 +47,7 @@ const AiBedForecastSection = ({ centreId, wards = [], title = "AI Bed Occupancy 
   };
 
   useEffect(() => {
-    if (selectedWardId) {
+    if (selectedWardId && wards.some(w => w.ward_id === selectedWardId)) {
       fetchBedForecast(selectedWardId);
     }
   }, [centreId, selectedWardId, lastUpdated]);

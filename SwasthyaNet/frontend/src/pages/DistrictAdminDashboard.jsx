@@ -43,6 +43,16 @@ const DistrictAdminDashboard = () => {
   };
 
   useEffect(() => {
+    const handleTabEvent = (e) => {
+      if (e.detail?.tab) {
+        setActiveTab(e.detail.tab);
+      }
+    };
+    window.addEventListener('swasthyanet-tab-change', handleTabEvent);
+    return () => window.removeEventListener('swasthyanet-tab-change', handleTabEvent);
+  }, []);
+
+  useEffect(() => {
     const fetchDashboardData = async () => {
       try {
         setIsLoading(true);
@@ -141,21 +151,21 @@ const DistrictAdminDashboard = () => {
               <Activity className="h-8 w-8 text-blue-600 mr-2" />
               <span className="font-bold text-xl text-slate-800">SwasthyaNet | District Admin</span>
             </div>
-            <div className="flex items-center space-x-4">
-              <span className="text-sm text-slate-600">{user?.email}</span>
+            <div className="flex items-center space-x-2 sm:space-x-4">
+              <span className="text-xs sm:text-sm text-slate-600 hidden md:inline truncate max-w-[180px]">{user?.email}</span>
               <button 
                 onClick={handleLogout}
-                className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-slate-700 bg-slate-100 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
+                className="inline-flex items-center px-2.5 sm:px-3 py-1.5 sm:py-2 border border-slate-300 text-xs sm:text-sm leading-4 font-medium rounded-md text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition"
               >
-                <LogOut className="h-4 w-4 mr-2" />
-                Logout
+                <LogOut className="h-3.5 w-3.5 sm:h-4 sm:w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Logout</span>
               </button>
             </div>
           </div>
         </div>
       </nav>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         
         {error && (
           <div className="mb-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-md">
@@ -171,38 +181,38 @@ const DistrictAdminDashboard = () => {
         )}
 
         {/* Tab Navigation */}
-        <div className="flex items-center space-x-3 mb-6 border-b border-slate-200 pb-3">
+        <div className="flex items-center space-x-2 sm:space-x-3 mb-6 border-b border-slate-200 pb-3 overflow-x-auto no-scrollbar whitespace-nowrap">
           <button
             onClick={() => setActiveTab('overview')}
-            className={`inline-flex items-center px-4 py-2 text-sm font-semibold rounded-lg transition ${
+            className={`inline-flex items-center px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition shrink-0 ${
               activeTab === 'overview'
                 ? 'bg-blue-600 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
             }`}
           >
-            <LayoutDashboard className="h-4 w-4 mr-2" />
+            <LayoutDashboard className="h-4 w-4 mr-1.5 sm:mr-2" />
             District Overview & Map
           </button>
           <button
             onClick={() => setActiveTab('ai_insights')}
-            className={`inline-flex items-center px-4 py-2 text-sm font-semibold rounded-lg transition ${
+            className={`inline-flex items-center px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition shrink-0 ${
               activeTab === 'ai_insights'
                 ? 'bg-indigo-600 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
             }`}
           >
-            <Sparkles className="h-4 w-4 mr-2 text-indigo-400" />
+            <Sparkles className="h-4 w-4 mr-1.5 sm:mr-2 text-indigo-400" />
             District AI Insights & Forecasts
           </button>
           <button
             onClick={() => setActiveTab('staff')}
-            className={`inline-flex items-center px-4 py-2 text-sm font-semibold rounded-lg transition ${
+            className={`inline-flex items-center px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition shrink-0 ${
               activeTab === 'staff'
                 ? 'bg-blue-600 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
             }`}
           >
-            <UserCheck className="h-4 w-4 mr-2" />
+            <UserCheck className="h-4 w-4 mr-1.5 sm:mr-2" />
             Staff Management
           </button>
         </div>
@@ -218,7 +228,7 @@ const DistrictAdminDashboard = () => {
         ) : (
           <>
             {/* Top Metrics */}
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5 mb-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 mb-8">
               <div className="bg-white overflow-hidden shadow-sm rounded-xl border border-slate-200 p-5 transition hover:shadow-md">
             <div className="flex items-center">
               <div className="flex-shrink-0 bg-blue-100 rounded-md p-3">

@@ -4,12 +4,14 @@ import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 
 import Login from './pages/Login';
+import ActivateAccount from './pages/ActivateAccount';
 import SuperAdminDashboard from './pages/SuperAdminDashboard';
 import DistrictAdminDashboard from './pages/DistrictAdminDashboard';
 import PhcDashboard from './pages/PhcDashboard';
 import ChcDashboard from './pages/ChcDashboard';
 import Unauthorized from './pages/Unauthorized';
 import CentreDetails from './pages/CentreDetails';
+import ChatbotWidget from './components/ChatbotWidget';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/activate" element={<ActivateAccount />} />
           <Route path="/unauthorized" element={<Unauthorized />} />
           
           <Route element={<ProtectedRoute allowedRoles={['SUPER_ADMIN']} />}>
@@ -41,6 +44,9 @@ function App() {
 
           <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
+        
+        {/* SwasthyaNet AI Assistant Reusable Floating Chatbot */}
+        <ChatbotWidget />
       </Router>
     </AuthProvider>
   );

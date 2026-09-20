@@ -1,0 +1,6281 @@
+{
+  "districts": [
+    {
+      "district_id": 1,
+      "district_name": "Coimbatore",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    },
+    {
+      "district_id": 2,
+      "district_name": "Chennai",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    },
+    {
+      "district_id": 3,
+      "district_name": "Trichy",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    },
+    {
+      "district_id": 4,
+      "district_name": "Madurai",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    },
+    {
+      "district_id": 5,
+      "district_name": "Kanyakumari",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    },
+    {
+      "district_id": 6,
+      "district_name": "Tiruppur",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    },
+    {
+      "district_id": 7,
+      "district_name": "Namakkal",
+      "state": "Tamil Nadu",
+      "created_at": "2026-08-12T23:03:04.238125"
+    }
+  ],
+  "health_centres": [
+    {
+      "centre_id": 1,
+      "centre_name": "Coimbatore Central PHC",
+      "centre_type": "PHC",
+      "district_id": 1,
+      "block": "North Block",
+      "village_town": "Coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "phone": "9000000001",
+      "total_beds": 20,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 2,
+      "centre_name": "Coimbatore East PHC",
+      "centre_type": "PHC",
+      "district_id": 1,
+      "block": "East Block",
+      "village_town": "Coimbatore",
+      "latitude": 11.025,
+      "longitude": 76.98,
+      "phone": "9000000002",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 3,
+      "centre_name": "Coimbatore Central CHC",
+      "centre_type": "CHC",
+      "district_id": 1,
+      "block": "Central Block",
+      "village_town": "Coimbatore",
+      "latitude": 11.01,
+      "longitude": 76.97,
+      "phone": "9000000003",
+      "total_beds": 50,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 4,
+      "centre_name": "Chennai North PHC",
+      "centre_type": "PHC",
+      "district_id": 2,
+      "block": "North Block",
+      "village_town": "Chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "phone": "9000000004",
+      "total_beds": 20,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 5,
+      "centre_name": "Chennai South PHC",
+      "centre_type": "PHC",
+      "district_id": 2,
+      "block": "South Block",
+      "village_town": "Chennai",
+      "latitude": 13.04,
+      "longitude": 80.24,
+      "phone": "9000000005",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 6,
+      "centre_name": "Chennai Central CHC",
+      "centre_type": "CHC",
+      "district_id": 2,
+      "block": "Central Block",
+      "village_town": "Chennai",
+      "latitude": 13.06,
+      "longitude": 80.28,
+      "phone": "9000000006",
+      "total_beds": 60,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 7,
+      "centre_name": "Trichy East PHC",
+      "centre_type": "PHC",
+      "district_id": 3,
+      "block": "East Block",
+      "village_town": "Trichy",
+      "latitude": 10.8155,
+      "longitude": 78.7047,
+      "phone": "9000000007",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 8,
+      "centre_name": "Trichy Central CHC",
+      "centre_type": "CHC",
+      "district_id": 3,
+      "block": "Central Block",
+      "village_town": "Trichy",
+      "latitude": 10.82,
+      "longitude": 78.69,
+      "phone": "9000000008",
+      "total_beds": 50,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 9,
+      "centre_name": "Madurai North PHC",
+      "centre_type": "PHC",
+      "district_id": 4,
+      "block": "North Block",
+      "village_town": "Madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "phone": "9000000009",
+      "total_beds": 20,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 10,
+      "centre_name": "Madurai South PHC",
+      "centre_type": "PHC",
+      "district_id": 4,
+      "block": "South Block",
+      "village_town": "Madurai",
+      "latitude": 9.9,
+      "longitude": 78.11,
+      "phone": "9000000010",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 11,
+      "centre_name": "Madurai Central CHC",
+      "centre_type": "CHC",
+      "district_id": 4,
+      "block": "Central Block",
+      "village_town": "Madurai",
+      "latitude": 9.915,
+      "longitude": 78.125,
+      "phone": "9000000011",
+      "total_beds": 50,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 12,
+      "centre_name": "Kanyakumari North PHC",
+      "centre_type": "PHC",
+      "district_id": 5,
+      "block": "North Block",
+      "village_town": "Kanyakumari",
+      "latitude": 8.1,
+      "longitude": 77.55,
+      "phone": "9000000012",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 13,
+      "centre_name": "Kanyakumari Central CHC",
+      "centre_type": "CHC",
+      "district_id": 5,
+      "block": "Central Block",
+      "village_town": "Kanyakumari",
+      "latitude": 8.08,
+      "longitude": 77.54,
+      "phone": "9000000013",
+      "total_beds": 40,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 14,
+      "centre_name": "Tiruppur North PHC",
+      "centre_type": "PHC",
+      "district_id": 6,
+      "block": "North Block",
+      "village_town": "Tiruppur",
+      "latitude": 11.1085,
+      "longitude": 77.3411,
+      "phone": "9000000014",
+      "total_beds": 20,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 15,
+      "centre_name": "Tiruppur South PHC",
+      "centre_type": "PHC",
+      "district_id": 6,
+      "block": "South Block",
+      "village_town": "Tiruppur",
+      "latitude": 11.09,
+      "longitude": 77.33,
+      "phone": "9000000015",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 16,
+      "centre_name": "Tiruppur Central CHC",
+      "centre_type": "CHC",
+      "district_id": 6,
+      "block": "Central Block",
+      "village_town": "Tiruppur",
+      "latitude": 11.1,
+      "longitude": 77.35,
+      "phone": "9000000016",
+      "total_beds": 50,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 17,
+      "centre_name": "Namakkal North PHC",
+      "centre_type": "PHC",
+      "district_id": 7,
+      "block": "North Block",
+      "village_town": "Namakkal",
+      "latitude": 11.221,
+      "longitude": 78.167,
+      "phone": "9000000017",
+      "total_beds": 15,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    },
+    {
+      "centre_id": 18,
+      "centre_name": "Namakkal Central CHC",
+      "centre_type": "CHC",
+      "district_id": 7,
+      "block": "Central Block",
+      "village_town": "Namakkal",
+      "latitude": 11.23,
+      "longitude": 78.16,
+      "phone": "9000000018",
+      "total_beds": 40,
+      "status": "ACTIVE",
+      "created_at": "2026-08-12T23:06:05.583000"
+    }
+  ],
+  "wards": [
+    {
+      "ward_id": 1,
+      "ward_name": "General",
+      "centre_id": 1,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 2,
+      "ward_name": "Maternity",
+      "centre_id": 1,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 3,
+      "ward_name": "Emergency",
+      "centre_id": 1,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 4,
+      "ward_name": "General",
+      "centre_id": 2,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 5,
+      "ward_name": "Maternity",
+      "centre_id": 2,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 6,
+      "ward_name": "Emergency",
+      "centre_id": 2,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 7,
+      "ward_name": "General",
+      "centre_id": 3,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 8,
+      "ward_name": "Maternity",
+      "centre_id": 3,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 9,
+      "ward_name": "Emergency",
+      "centre_id": 3,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 10,
+      "ward_name": "General",
+      "centre_id": 4,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 11,
+      "ward_name": "Maternity",
+      "centre_id": 4,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 12,
+      "ward_name": "Emergency",
+      "centre_id": 4,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 13,
+      "ward_name": "General",
+      "centre_id": 5,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 14,
+      "ward_name": "Maternity",
+      "centre_id": 5,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 15,
+      "ward_name": "Emergency",
+      "centre_id": 5,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 16,
+      "ward_name": "General",
+      "centre_id": 6,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 17,
+      "ward_name": "Maternity",
+      "centre_id": 6,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 18,
+      "ward_name": "Emergency",
+      "centre_id": 6,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 19,
+      "ward_name": "General",
+      "centre_id": 7,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 20,
+      "ward_name": "Maternity",
+      "centre_id": 7,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 21,
+      "ward_name": "Emergency",
+      "centre_id": 7,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 22,
+      "ward_name": "General",
+      "centre_id": 8,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 23,
+      "ward_name": "Maternity",
+      "centre_id": 8,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 24,
+      "ward_name": "Emergency",
+      "centre_id": 8,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 25,
+      "ward_name": "General",
+      "centre_id": 9,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 26,
+      "ward_name": "Maternity",
+      "centre_id": 9,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 27,
+      "ward_name": "Emergency",
+      "centre_id": 9,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 28,
+      "ward_name": "General",
+      "centre_id": 10,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 29,
+      "ward_name": "Maternity",
+      "centre_id": 10,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 30,
+      "ward_name": "Emergency",
+      "centre_id": 10,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 31,
+      "ward_name": "General",
+      "centre_id": 11,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 32,
+      "ward_name": "Maternity",
+      "centre_id": 11,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 33,
+      "ward_name": "Emergency",
+      "centre_id": 11,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 34,
+      "ward_name": "General",
+      "centre_id": 12,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 35,
+      "ward_name": "Maternity",
+      "centre_id": 12,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 36,
+      "ward_name": "Emergency",
+      "centre_id": 12,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 37,
+      "ward_name": "General",
+      "centre_id": 13,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 38,
+      "ward_name": "Maternity",
+      "centre_id": 13,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 39,
+      "ward_name": "Emergency",
+      "centre_id": 13,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 40,
+      "ward_name": "General",
+      "centre_id": 14,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 41,
+      "ward_name": "Maternity",
+      "centre_id": 14,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 42,
+      "ward_name": "Emergency",
+      "centre_id": 14,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 43,
+      "ward_name": "General",
+      "centre_id": 15,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 44,
+      "ward_name": "Maternity",
+      "centre_id": 15,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 45,
+      "ward_name": "Emergency",
+      "centre_id": 15,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 46,
+      "ward_name": "General",
+      "centre_id": 16,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 47,
+      "ward_name": "Maternity",
+      "centre_id": 16,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 48,
+      "ward_name": "Emergency",
+      "centre_id": 16,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 49,
+      "ward_name": "General",
+      "centre_id": 17,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 50,
+      "ward_name": "Maternity",
+      "centre_id": 17,
+      "total_beds": 8,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 51,
+      "ward_name": "Emergency",
+      "centre_id": 17,
+      "total_beds": 5,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 52,
+      "ward_name": "General",
+      "centre_id": 18,
+      "total_beds": 30,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 53,
+      "ward_name": "Maternity",
+      "centre_id": 18,
+      "total_beds": 15,
+      "created_at": "2026-08-13T00:10:08.901067"
+    },
+    {
+      "ward_id": 54,
+      "ward_name": "Emergency",
+      "centre_id": 18,
+      "total_beds": 10,
+      "created_at": "2026-08-13T00:10:08.901067"
+    }
+  ],
+  "doctors": [
+    {
+      "doctor_id": 1,
+      "centre_id": 1,
+      "doctor_name": "Coimbatore Central PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 2,
+      "centre_id": 2,
+      "doctor_name": "Coimbatore East PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 3,
+      "centre_id": 3,
+      "doctor_name": "Coimbatore Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 4,
+      "centre_id": 4,
+      "doctor_name": "Chennai North PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 5,
+      "centre_id": 5,
+      "doctor_name": "Chennai South PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 6,
+      "centre_id": 6,
+      "doctor_name": "Chennai Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 7,
+      "centre_id": 7,
+      "doctor_name": "Trichy East PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 8,
+      "centre_id": 8,
+      "doctor_name": "Trichy Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 9,
+      "centre_id": 9,
+      "doctor_name": "Madurai North PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 10,
+      "centre_id": 10,
+      "doctor_name": "Madurai South PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 11,
+      "centre_id": 11,
+      "doctor_name": "Madurai Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 12,
+      "centre_id": 12,
+      "doctor_name": "Kanyakumari North PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 13,
+      "centre_id": 13,
+      "doctor_name": "Kanyakumari Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 14,
+      "centre_id": 14,
+      "doctor_name": "Tiruppur North PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 15,
+      "centre_id": 15,
+      "doctor_name": "Tiruppur South PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 16,
+      "centre_id": 16,
+      "doctor_name": "Tiruppur Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 17,
+      "centre_id": 17,
+      "doctor_name": "Namakkal North PHC - Doctor 1",
+      "specialization": "General Physician",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 18,
+      "centre_id": 18,
+      "doctor_name": "Namakkal Central CHC - Doctor 1",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:12:24.621240"
+    },
+    {
+      "doctor_id": 19,
+      "centre_id": 1,
+      "doctor_name": "Dr. Arun Kumar",
+      "specialization": "General Medicine",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:14:00.686236"
+    },
+    {
+      "doctor_id": 20,
+      "centre_id": 1,
+      "doctor_name": "Dr. Priya Devi",
+      "specialization": "Pediatrics",
+      "employment_status": "ACTIVE",
+      "created_at": "2026-08-13T00:14:00.686236"
+    },
+    {
+      "doctor_id": 21,
+      "centre_id": 3,
+      "doctor_name": "Dr. Ravi Kumar",
+      "specialization": "General Medicine",
+      "employment_status": "INACTIVE",
+      "created_at": "2026-08-13T00:14:00.686236"
+    },
+    {
+      "doctor_id": 22,
+      "centre_id": 3,
+      "doctor_name": "Dr. Meena",
+      "specialization": "Gynecology",
+      "employment_status": "INACTIVE",
+      "created_at": "2026-08-13T00:14:00.686236"
+    },
+    {
+      "doctor_id": 23,
+      "centre_id": 4,
+      "doctor_name": "Dr Reena",
+      "specialization": "Psychology",
+      "employment_status": "INACTIVE",
+      "created_at": "2026-08-13T00:14:00.686236"
+    }
+  ],
+  "medicines": [
+    {
+      "medicine_id": 1,
+      "medicine_name": "Paracetamol",
+      "category": "Analgesic / Antipyretic",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 2,
+      "medicine_name": "Ibuprofen",
+      "category": "Analgesic / Anti-inflammatory",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 3,
+      "medicine_name": "Amoxicillin",
+      "category": "Antibiotic",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 4,
+      "medicine_name": "Azithromycin",
+      "category": "Antibiotic",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 5,
+      "medicine_name": "Ciprofloxacin",
+      "category": "Antibiotic",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 6,
+      "medicine_name": "Metronidazole",
+      "category": "Antibiotic / Antiprotozoal",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 7,
+      "medicine_name": "Cetirizine",
+      "category": "Antihistamine",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 8,
+      "medicine_name": "Omeprazole",
+      "category": "Gastrointestinal",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 9,
+      "medicine_name": "Pantoprazole",
+      "category": "Gastrointestinal",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 10,
+      "medicine_name": "ORS",
+      "category": "Rehydration",
+      "unit": "Packets",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 11,
+      "medicine_name": "Zinc Tablets",
+      "category": "Nutritional Supplement",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 12,
+      "medicine_name": "Iron Folic Acid",
+      "category": "Nutritional Supplement",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 13,
+      "medicine_name": "Calcium Tablets",
+      "category": "Nutritional Supplement",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 14,
+      "medicine_name": "Amlodipine",
+      "category": "Antihypertensive",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 15,
+      "medicine_name": "Losartan",
+      "category": "Antihypertensive",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 16,
+      "medicine_name": "Metformin",
+      "category": "Antidiabetic",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 17,
+      "medicine_name": "Salbutamol",
+      "category": "Respiratory",
+      "unit": "Strips",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 18,
+      "medicine_name": "Hydrocortisone",
+      "category": "Corticosteroid",
+      "unit": "Vials",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 19,
+      "medicine_name": "Normal Saline",
+      "category": "IV Fluid",
+      "unit": "Bottles",
+      "created_at": "2026-08-12T23:08:29.968182"
+    },
+    {
+      "medicine_id": 20,
+      "medicine_name": "Povidone Iodine",
+      "category": "Antiseptic",
+      "unit": "Bottles",
+      "created_at": "2026-08-12T23:08:29.968182"
+    }
+  ],
+  "medicine_inventory": [
+    {
+      "inventory_id": 3,
+      "centre_id": 3,
+      "medicine_id": 1,
+      "current_stock": 121,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 4,
+      "centre_id": 4,
+      "medicine_id": 1,
+      "current_stock": 128,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 5,
+      "centre_id": 5,
+      "medicine_id": 1,
+      "current_stock": 135,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 7,
+      "centre_id": 7,
+      "medicine_id": 1,
+      "current_stock": 149,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 8,
+      "centre_id": 8,
+      "medicine_id": 1,
+      "current_stock": 156,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 9,
+      "centre_id": 9,
+      "medicine_id": 1,
+      "current_stock": 163,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 10,
+      "centre_id": 10,
+      "medicine_id": 1,
+      "current_stock": 170,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 11,
+      "centre_id": 11,
+      "medicine_id": 1,
+      "current_stock": 177,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 12,
+      "centre_id": 12,
+      "medicine_id": 1,
+      "current_stock": 184,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 13,
+      "centre_id": 13,
+      "medicine_id": 1,
+      "current_stock": 191,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 14,
+      "centre_id": 14,
+      "medicine_id": 1,
+      "current_stock": 198,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 15,
+      "centre_id": 15,
+      "medicine_id": 1,
+      "current_stock": 205,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 16,
+      "centre_id": 16,
+      "medicine_id": 1,
+      "current_stock": 212,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 17,
+      "centre_id": 17,
+      "medicine_id": 1,
+      "current_stock": 219,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 18,
+      "centre_id": 18,
+      "medicine_id": 1,
+      "current_stock": 226,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 21,
+      "centre_id": 3,
+      "medicine_id": 2,
+      "current_stock": 142,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 22,
+      "centre_id": 4,
+      "medicine_id": 2,
+      "current_stock": 156,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 23,
+      "centre_id": 5,
+      "medicine_id": 2,
+      "current_stock": 170,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 25,
+      "centre_id": 7,
+      "medicine_id": 2,
+      "current_stock": 198,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 26,
+      "centre_id": 8,
+      "medicine_id": 2,
+      "current_stock": 212,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 27,
+      "centre_id": 9,
+      "medicine_id": 2,
+      "current_stock": 226,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 28,
+      "centre_id": 10,
+      "medicine_id": 2,
+      "current_stock": 240,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 29,
+      "centre_id": 11,
+      "medicine_id": 2,
+      "current_stock": 254,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 30,
+      "centre_id": 12,
+      "medicine_id": 2,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 31,
+      "centre_id": 13,
+      "medicine_id": 2,
+      "current_stock": 282,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 32,
+      "centre_id": 14,
+      "medicine_id": 2,
+      "current_stock": 296,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 33,
+      "centre_id": 15,
+      "medicine_id": 2,
+      "current_stock": 310,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 34,
+      "centre_id": 16,
+      "medicine_id": 2,
+      "current_stock": 324,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 35,
+      "centre_id": 17,
+      "medicine_id": 2,
+      "current_stock": 338,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 36,
+      "centre_id": 18,
+      "medicine_id": 2,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 39,
+      "centre_id": 3,
+      "medicine_id": 3,
+      "current_stock": 163,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 40,
+      "centre_id": 4,
+      "medicine_id": 3,
+      "current_stock": 184,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 41,
+      "centre_id": 5,
+      "medicine_id": 3,
+      "current_stock": 205,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 43,
+      "centre_id": 7,
+      "medicine_id": 3,
+      "current_stock": 247,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 44,
+      "centre_id": 8,
+      "medicine_id": 3,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 45,
+      "centre_id": 9,
+      "medicine_id": 3,
+      "current_stock": 289,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 46,
+      "centre_id": 10,
+      "medicine_id": 3,
+      "current_stock": 310,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 47,
+      "centre_id": 11,
+      "medicine_id": 3,
+      "current_stock": 331,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 48,
+      "centre_id": 12,
+      "medicine_id": 3,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 49,
+      "centre_id": 13,
+      "medicine_id": 3,
+      "current_stock": 373,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 50,
+      "centre_id": 14,
+      "medicine_id": 3,
+      "current_stock": 394,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 51,
+      "centre_id": 15,
+      "medicine_id": 3,
+      "current_stock": 115,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 52,
+      "centre_id": 16,
+      "medicine_id": 3,
+      "current_stock": 136,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 53,
+      "centre_id": 17,
+      "medicine_id": 3,
+      "current_stock": 157,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 54,
+      "centre_id": 18,
+      "medicine_id": 3,
+      "current_stock": 178,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 55,
+      "centre_id": 1,
+      "medicine_id": 4,
+      "current_stock": 128,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 57,
+      "centre_id": 3,
+      "medicine_id": 4,
+      "current_stock": 184,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 58,
+      "centre_id": 4,
+      "medicine_id": 4,
+      "current_stock": 212,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 59,
+      "centre_id": 5,
+      "medicine_id": 4,
+      "current_stock": 240,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 60,
+      "centre_id": 6,
+      "medicine_id": 4,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 61,
+      "centre_id": 7,
+      "medicine_id": 4,
+      "current_stock": 296,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 62,
+      "centre_id": 8,
+      "medicine_id": 4,
+      "current_stock": 324,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 63,
+      "centre_id": 9,
+      "medicine_id": 4,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 64,
+      "centre_id": 10,
+      "medicine_id": 4,
+      "current_stock": 380,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 65,
+      "centre_id": 11,
+      "medicine_id": 4,
+      "current_stock": 108,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 66,
+      "centre_id": 12,
+      "medicine_id": 4,
+      "current_stock": 136,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 67,
+      "centre_id": 13,
+      "medicine_id": 4,
+      "current_stock": 164,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 68,
+      "centre_id": 14,
+      "medicine_id": 4,
+      "current_stock": 192,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 69,
+      "centre_id": 15,
+      "medicine_id": 4,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 70,
+      "centre_id": 16,
+      "medicine_id": 4,
+      "current_stock": 248,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 71,
+      "centre_id": 17,
+      "medicine_id": 4,
+      "current_stock": 276,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 72,
+      "centre_id": 18,
+      "medicine_id": 4,
+      "current_stock": 304,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 73,
+      "centre_id": 1,
+      "medicine_id": 5,
+      "current_stock": 135,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 75,
+      "centre_id": 3,
+      "medicine_id": 5,
+      "current_stock": 205,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 76,
+      "centre_id": 4,
+      "medicine_id": 5,
+      "current_stock": 240,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 77,
+      "centre_id": 5,
+      "medicine_id": 5,
+      "current_stock": 275,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 78,
+      "centre_id": 6,
+      "medicine_id": 5,
+      "current_stock": 310,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 79,
+      "centre_id": 7,
+      "medicine_id": 5,
+      "current_stock": 345,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 80,
+      "centre_id": 8,
+      "medicine_id": 5,
+      "current_stock": 380,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 81,
+      "centre_id": 9,
+      "medicine_id": 5,
+      "current_stock": 115,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 82,
+      "centre_id": 10,
+      "medicine_id": 5,
+      "current_stock": 150,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 83,
+      "centre_id": 11,
+      "medicine_id": 5,
+      "current_stock": 185,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 84,
+      "centre_id": 12,
+      "medicine_id": 5,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 85,
+      "centre_id": 13,
+      "medicine_id": 5,
+      "current_stock": 255,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 86,
+      "centre_id": 14,
+      "medicine_id": 5,
+      "current_stock": 290,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 87,
+      "centre_id": 15,
+      "medicine_id": 5,
+      "current_stock": 325,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 88,
+      "centre_id": 16,
+      "medicine_id": 5,
+      "current_stock": 360,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 89,
+      "centre_id": 17,
+      "medicine_id": 5,
+      "current_stock": 395,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 90,
+      "centre_id": 18,
+      "medicine_id": 5,
+      "current_stock": 130,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 91,
+      "centre_id": 1,
+      "medicine_id": 6,
+      "current_stock": 142,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 92,
+      "centre_id": 2,
+      "medicine_id": 6,
+      "current_stock": 184,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 93,
+      "centre_id": 3,
+      "medicine_id": 6,
+      "current_stock": 226,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 94,
+      "centre_id": 4,
+      "medicine_id": 6,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 95,
+      "centre_id": 5,
+      "medicine_id": 6,
+      "current_stock": 310,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 96,
+      "centre_id": 6,
+      "medicine_id": 6,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 97,
+      "centre_id": 7,
+      "medicine_id": 6,
+      "current_stock": 394,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 98,
+      "centre_id": 8,
+      "medicine_id": 6,
+      "current_stock": 136,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 99,
+      "centre_id": 9,
+      "medicine_id": 6,
+      "current_stock": 178,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 100,
+      "centre_id": 10,
+      "medicine_id": 6,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 101,
+      "centre_id": 11,
+      "medicine_id": 6,
+      "current_stock": 262,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 102,
+      "centre_id": 12,
+      "medicine_id": 6,
+      "current_stock": 304,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 103,
+      "centre_id": 13,
+      "medicine_id": 6,
+      "current_stock": 346,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 104,
+      "centre_id": 14,
+      "medicine_id": 6,
+      "current_stock": 388,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 105,
+      "centre_id": 15,
+      "medicine_id": 6,
+      "current_stock": 130,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 106,
+      "centre_id": 16,
+      "medicine_id": 6,
+      "current_stock": 172,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 107,
+      "centre_id": 17,
+      "medicine_id": 6,
+      "current_stock": 214,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 108,
+      "centre_id": 18,
+      "medicine_id": 6,
+      "current_stock": 256,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 109,
+      "centre_id": 1,
+      "medicine_id": 7,
+      "current_stock": 149,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 110,
+      "centre_id": 2,
+      "medicine_id": 7,
+      "current_stock": 198,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 111,
+      "centre_id": 3,
+      "medicine_id": 7,
+      "current_stock": 247,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 112,
+      "centre_id": 4,
+      "medicine_id": 7,
+      "current_stock": 296,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 113,
+      "centre_id": 5,
+      "medicine_id": 7,
+      "current_stock": 345,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 114,
+      "centre_id": 6,
+      "medicine_id": 7,
+      "current_stock": 394,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 115,
+      "centre_id": 7,
+      "medicine_id": 7,
+      "current_stock": 143,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 116,
+      "centre_id": 8,
+      "medicine_id": 7,
+      "current_stock": 192,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 117,
+      "centre_id": 9,
+      "medicine_id": 7,
+      "current_stock": 241,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 118,
+      "centre_id": 10,
+      "medicine_id": 7,
+      "current_stock": 290,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 119,
+      "centre_id": 11,
+      "medicine_id": 7,
+      "current_stock": 339,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 120,
+      "centre_id": 12,
+      "medicine_id": 7,
+      "current_stock": 388,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 121,
+      "centre_id": 13,
+      "medicine_id": 7,
+      "current_stock": 137,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 122,
+      "centre_id": 14,
+      "medicine_id": 7,
+      "current_stock": 186,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 123,
+      "centre_id": 15,
+      "medicine_id": 7,
+      "current_stock": 235,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 124,
+      "centre_id": 16,
+      "medicine_id": 7,
+      "current_stock": 284,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 125,
+      "centre_id": 17,
+      "medicine_id": 7,
+      "current_stock": 333,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 126,
+      "centre_id": 18,
+      "medicine_id": 7,
+      "current_stock": 382,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 127,
+      "centre_id": 1,
+      "medicine_id": 8,
+      "current_stock": 156,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 128,
+      "centre_id": 2,
+      "medicine_id": 8,
+      "current_stock": 212,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 129,
+      "centre_id": 3,
+      "medicine_id": 8,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 130,
+      "centre_id": 4,
+      "medicine_id": 8,
+      "current_stock": 324,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 131,
+      "centre_id": 5,
+      "medicine_id": 8,
+      "current_stock": 380,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 132,
+      "centre_id": 6,
+      "medicine_id": 8,
+      "current_stock": 136,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 133,
+      "centre_id": 7,
+      "medicine_id": 8,
+      "current_stock": 192,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 134,
+      "centre_id": 8,
+      "medicine_id": 8,
+      "current_stock": 248,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 135,
+      "centre_id": 9,
+      "medicine_id": 8,
+      "current_stock": 304,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 136,
+      "centre_id": 10,
+      "medicine_id": 8,
+      "current_stock": 360,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 56,
+      "centre_id": 2,
+      "medicine_id": 4,
+      "current_stock": 146,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T12:47:56.847091"
+    },
+    {
+      "inventory_id": 2,
+      "centre_id": 2,
+      "medicine_id": 1,
+      "current_stock": 119,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T12:47:01.073490"
+    },
+    {
+      "inventory_id": 38,
+      "centre_id": 2,
+      "medicine_id": 3,
+      "current_stock": 132,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T12:48:12.814075"
+    },
+    {
+      "inventory_id": 6,
+      "centre_id": 6,
+      "medicine_id": 1,
+      "current_stock": 157,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T13:03:44.696422"
+    },
+    {
+      "inventory_id": 37,
+      "centre_id": 1,
+      "medicine_id": 3,
+      "current_stock": 111,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-17T20:59:47.833075"
+    },
+    {
+      "inventory_id": 24,
+      "centre_id": 6,
+      "medicine_id": 2,
+      "current_stock": 189,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T13:09:26.805175"
+    },
+    {
+      "inventory_id": 42,
+      "centre_id": 6,
+      "medicine_id": 3,
+      "current_stock": 246,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T13:15:38.870045"
+    },
+    {
+      "inventory_id": 19,
+      "centre_id": 1,
+      "medicine_id": 2,
+      "current_stock": 114,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-17T20:58:07.975497"
+    },
+    {
+      "inventory_id": 74,
+      "centre_id": 2,
+      "medicine_id": 5,
+      "current_stock": 175,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-20T20:17:04.894945"
+    },
+    {
+      "inventory_id": 137,
+      "centre_id": 11,
+      "medicine_id": 8,
+      "current_stock": 116,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 138,
+      "centre_id": 12,
+      "medicine_id": 8,
+      "current_stock": 172,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 139,
+      "centre_id": 13,
+      "medicine_id": 8,
+      "current_stock": 228,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 140,
+      "centre_id": 14,
+      "medicine_id": 8,
+      "current_stock": 284,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 141,
+      "centre_id": 15,
+      "medicine_id": 8,
+      "current_stock": 340,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 142,
+      "centre_id": 16,
+      "medicine_id": 8,
+      "current_stock": 396,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 143,
+      "centre_id": 17,
+      "medicine_id": 8,
+      "current_stock": 152,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 144,
+      "centre_id": 18,
+      "medicine_id": 8,
+      "current_stock": 208,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 145,
+      "centre_id": 1,
+      "medicine_id": 9,
+      "current_stock": 163,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 146,
+      "centre_id": 2,
+      "medicine_id": 9,
+      "current_stock": 226,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 147,
+      "centre_id": 3,
+      "medicine_id": 9,
+      "current_stock": 289,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 148,
+      "centre_id": 4,
+      "medicine_id": 9,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 149,
+      "centre_id": 5,
+      "medicine_id": 9,
+      "current_stock": 115,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 150,
+      "centre_id": 6,
+      "medicine_id": 9,
+      "current_stock": 178,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 151,
+      "centre_id": 7,
+      "medicine_id": 9,
+      "current_stock": 241,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 152,
+      "centre_id": 8,
+      "medicine_id": 9,
+      "current_stock": 304,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 153,
+      "centre_id": 9,
+      "medicine_id": 9,
+      "current_stock": 367,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 154,
+      "centre_id": 10,
+      "medicine_id": 9,
+      "current_stock": 130,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 155,
+      "centre_id": 11,
+      "medicine_id": 9,
+      "current_stock": 193,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 156,
+      "centre_id": 12,
+      "medicine_id": 9,
+      "current_stock": 256,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 157,
+      "centre_id": 13,
+      "medicine_id": 9,
+      "current_stock": 319,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 158,
+      "centre_id": 14,
+      "medicine_id": 9,
+      "current_stock": 382,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 159,
+      "centre_id": 15,
+      "medicine_id": 9,
+      "current_stock": 145,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 160,
+      "centre_id": 16,
+      "medicine_id": 9,
+      "current_stock": 208,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 161,
+      "centre_id": 17,
+      "medicine_id": 9,
+      "current_stock": 271,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 162,
+      "centre_id": 18,
+      "medicine_id": 9,
+      "current_stock": 334,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 163,
+      "centre_id": 1,
+      "medicine_id": 10,
+      "current_stock": 170,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 164,
+      "centre_id": 2,
+      "medicine_id": 10,
+      "current_stock": 240,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 165,
+      "centre_id": 3,
+      "medicine_id": 10,
+      "current_stock": 310,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 166,
+      "centre_id": 4,
+      "medicine_id": 10,
+      "current_stock": 380,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 167,
+      "centre_id": 5,
+      "medicine_id": 10,
+      "current_stock": 150,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 168,
+      "centre_id": 6,
+      "medicine_id": 10,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 169,
+      "centre_id": 7,
+      "medicine_id": 10,
+      "current_stock": 290,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 170,
+      "centre_id": 8,
+      "medicine_id": 10,
+      "current_stock": 360,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 171,
+      "centre_id": 9,
+      "medicine_id": 10,
+      "current_stock": 130,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 172,
+      "centre_id": 10,
+      "medicine_id": 10,
+      "current_stock": 200,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 173,
+      "centre_id": 11,
+      "medicine_id": 10,
+      "current_stock": 270,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 174,
+      "centre_id": 12,
+      "medicine_id": 10,
+      "current_stock": 340,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 175,
+      "centre_id": 13,
+      "medicine_id": 10,
+      "current_stock": 110,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 176,
+      "centre_id": 14,
+      "medicine_id": 10,
+      "current_stock": 180,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 177,
+      "centre_id": 15,
+      "medicine_id": 10,
+      "current_stock": 250,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 178,
+      "centre_id": 16,
+      "medicine_id": 10,
+      "current_stock": 320,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 179,
+      "centre_id": 17,
+      "medicine_id": 10,
+      "current_stock": 390,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 180,
+      "centre_id": 18,
+      "medicine_id": 10,
+      "current_stock": 160,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 181,
+      "centre_id": 1,
+      "medicine_id": 11,
+      "current_stock": 177,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 182,
+      "centre_id": 2,
+      "medicine_id": 11,
+      "current_stock": 254,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 183,
+      "centre_id": 3,
+      "medicine_id": 11,
+      "current_stock": 331,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 184,
+      "centre_id": 4,
+      "medicine_id": 11,
+      "current_stock": 108,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 185,
+      "centre_id": 5,
+      "medicine_id": 11,
+      "current_stock": 185,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 186,
+      "centre_id": 6,
+      "medicine_id": 11,
+      "current_stock": 262,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 187,
+      "centre_id": 7,
+      "medicine_id": 11,
+      "current_stock": 339,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 188,
+      "centre_id": 8,
+      "medicine_id": 11,
+      "current_stock": 116,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 189,
+      "centre_id": 9,
+      "medicine_id": 11,
+      "current_stock": 193,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 190,
+      "centre_id": 10,
+      "medicine_id": 11,
+      "current_stock": 270,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 191,
+      "centre_id": 11,
+      "medicine_id": 11,
+      "current_stock": 347,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 192,
+      "centre_id": 12,
+      "medicine_id": 11,
+      "current_stock": 124,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 193,
+      "centre_id": 13,
+      "medicine_id": 11,
+      "current_stock": 201,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 194,
+      "centre_id": 14,
+      "medicine_id": 11,
+      "current_stock": 278,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 195,
+      "centre_id": 15,
+      "medicine_id": 11,
+      "current_stock": 355,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 196,
+      "centre_id": 16,
+      "medicine_id": 11,
+      "current_stock": 132,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 197,
+      "centre_id": 17,
+      "medicine_id": 11,
+      "current_stock": 209,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 198,
+      "centre_id": 18,
+      "medicine_id": 11,
+      "current_stock": 286,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 199,
+      "centre_id": 1,
+      "medicine_id": 12,
+      "current_stock": 184,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 200,
+      "centre_id": 2,
+      "medicine_id": 12,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 201,
+      "centre_id": 3,
+      "medicine_id": 12,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 202,
+      "centre_id": 4,
+      "medicine_id": 12,
+      "current_stock": 136,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 203,
+      "centre_id": 5,
+      "medicine_id": 12,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 204,
+      "centre_id": 6,
+      "medicine_id": 12,
+      "current_stock": 304,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 205,
+      "centre_id": 7,
+      "medicine_id": 12,
+      "current_stock": 388,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 206,
+      "centre_id": 8,
+      "medicine_id": 12,
+      "current_stock": 172,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 207,
+      "centre_id": 9,
+      "medicine_id": 12,
+      "current_stock": 256,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 208,
+      "centre_id": 10,
+      "medicine_id": 12,
+      "current_stock": 340,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 209,
+      "centre_id": 11,
+      "medicine_id": 12,
+      "current_stock": 124,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 210,
+      "centre_id": 12,
+      "medicine_id": 12,
+      "current_stock": 208,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 211,
+      "centre_id": 13,
+      "medicine_id": 12,
+      "current_stock": 292,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 212,
+      "centre_id": 14,
+      "medicine_id": 12,
+      "current_stock": 376,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 213,
+      "centre_id": 15,
+      "medicine_id": 12,
+      "current_stock": 160,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 214,
+      "centre_id": 16,
+      "medicine_id": 12,
+      "current_stock": 244,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 215,
+      "centre_id": 17,
+      "medicine_id": 12,
+      "current_stock": 328,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 216,
+      "centre_id": 18,
+      "medicine_id": 12,
+      "current_stock": 112,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 217,
+      "centre_id": 1,
+      "medicine_id": 13,
+      "current_stock": 191,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 218,
+      "centre_id": 2,
+      "medicine_id": 13,
+      "current_stock": 282,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 219,
+      "centre_id": 3,
+      "medicine_id": 13,
+      "current_stock": 373,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 220,
+      "centre_id": 4,
+      "medicine_id": 13,
+      "current_stock": 164,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 221,
+      "centre_id": 5,
+      "medicine_id": 13,
+      "current_stock": 255,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 222,
+      "centre_id": 6,
+      "medicine_id": 13,
+      "current_stock": 346,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 223,
+      "centre_id": 7,
+      "medicine_id": 13,
+      "current_stock": 137,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 224,
+      "centre_id": 8,
+      "medicine_id": 13,
+      "current_stock": 228,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 225,
+      "centre_id": 9,
+      "medicine_id": 13,
+      "current_stock": 319,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 226,
+      "centre_id": 10,
+      "medicine_id": 13,
+      "current_stock": 110,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 227,
+      "centre_id": 11,
+      "medicine_id": 13,
+      "current_stock": 201,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 228,
+      "centre_id": 12,
+      "medicine_id": 13,
+      "current_stock": 292,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 229,
+      "centre_id": 13,
+      "medicine_id": 13,
+      "current_stock": 383,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 230,
+      "centre_id": 14,
+      "medicine_id": 13,
+      "current_stock": 174,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 231,
+      "centre_id": 15,
+      "medicine_id": 13,
+      "current_stock": 265,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 232,
+      "centre_id": 16,
+      "medicine_id": 13,
+      "current_stock": 356,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 233,
+      "centre_id": 17,
+      "medicine_id": 13,
+      "current_stock": 147,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 234,
+      "centre_id": 18,
+      "medicine_id": 13,
+      "current_stock": 238,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 235,
+      "centre_id": 1,
+      "medicine_id": 14,
+      "current_stock": 198,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 236,
+      "centre_id": 2,
+      "medicine_id": 14,
+      "current_stock": 296,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 237,
+      "centre_id": 3,
+      "medicine_id": 14,
+      "current_stock": 394,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 238,
+      "centre_id": 4,
+      "medicine_id": 14,
+      "current_stock": 192,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 239,
+      "centre_id": 5,
+      "medicine_id": 14,
+      "current_stock": 290,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 240,
+      "centre_id": 6,
+      "medicine_id": 14,
+      "current_stock": 388,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 241,
+      "centre_id": 7,
+      "medicine_id": 14,
+      "current_stock": 186,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 242,
+      "centre_id": 8,
+      "medicine_id": 14,
+      "current_stock": 284,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 243,
+      "centre_id": 9,
+      "medicine_id": 14,
+      "current_stock": 382,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 244,
+      "centre_id": 10,
+      "medicine_id": 14,
+      "current_stock": 180,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 245,
+      "centre_id": 11,
+      "medicine_id": 14,
+      "current_stock": 278,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 246,
+      "centre_id": 12,
+      "medicine_id": 14,
+      "current_stock": 376,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 247,
+      "centre_id": 13,
+      "medicine_id": 14,
+      "current_stock": 174,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 248,
+      "centre_id": 14,
+      "medicine_id": 14,
+      "current_stock": 272,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 249,
+      "centre_id": 15,
+      "medicine_id": 14,
+      "current_stock": 370,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 250,
+      "centre_id": 16,
+      "medicine_id": 14,
+      "current_stock": 168,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 251,
+      "centre_id": 17,
+      "medicine_id": 14,
+      "current_stock": 266,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 252,
+      "centre_id": 18,
+      "medicine_id": 14,
+      "current_stock": 364,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 253,
+      "centre_id": 1,
+      "medicine_id": 15,
+      "current_stock": 205,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 254,
+      "centre_id": 2,
+      "medicine_id": 15,
+      "current_stock": 310,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 255,
+      "centre_id": 3,
+      "medicine_id": 15,
+      "current_stock": 115,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 256,
+      "centre_id": 4,
+      "medicine_id": 15,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 257,
+      "centre_id": 5,
+      "medicine_id": 15,
+      "current_stock": 325,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 258,
+      "centre_id": 6,
+      "medicine_id": 15,
+      "current_stock": 130,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 259,
+      "centre_id": 7,
+      "medicine_id": 15,
+      "current_stock": 235,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 260,
+      "centre_id": 8,
+      "medicine_id": 15,
+      "current_stock": 340,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 261,
+      "centre_id": 9,
+      "medicine_id": 15,
+      "current_stock": 145,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 262,
+      "centre_id": 10,
+      "medicine_id": 15,
+      "current_stock": 250,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 263,
+      "centre_id": 11,
+      "medicine_id": 15,
+      "current_stock": 355,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 264,
+      "centre_id": 12,
+      "medicine_id": 15,
+      "current_stock": 160,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 265,
+      "centre_id": 13,
+      "medicine_id": 15,
+      "current_stock": 265,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 266,
+      "centre_id": 14,
+      "medicine_id": 15,
+      "current_stock": 370,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 267,
+      "centre_id": 15,
+      "medicine_id": 15,
+      "current_stock": 175,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 268,
+      "centre_id": 16,
+      "medicine_id": 15,
+      "current_stock": 280,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 269,
+      "centre_id": 17,
+      "medicine_id": 15,
+      "current_stock": 385,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 270,
+      "centre_id": 18,
+      "medicine_id": 15,
+      "current_stock": 190,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 271,
+      "centre_id": 1,
+      "medicine_id": 16,
+      "current_stock": 212,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 272,
+      "centre_id": 2,
+      "medicine_id": 16,
+      "current_stock": 324,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 273,
+      "centre_id": 3,
+      "medicine_id": 16,
+      "current_stock": 136,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 274,
+      "centre_id": 4,
+      "medicine_id": 16,
+      "current_stock": 248,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 275,
+      "centre_id": 5,
+      "medicine_id": 16,
+      "current_stock": 360,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 276,
+      "centre_id": 6,
+      "medicine_id": 16,
+      "current_stock": 172,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 277,
+      "centre_id": 7,
+      "medicine_id": 16,
+      "current_stock": 284,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 278,
+      "centre_id": 8,
+      "medicine_id": 16,
+      "current_stock": 396,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 279,
+      "centre_id": 9,
+      "medicine_id": 16,
+      "current_stock": 208,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 280,
+      "centre_id": 10,
+      "medicine_id": 16,
+      "current_stock": 320,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 281,
+      "centre_id": 11,
+      "medicine_id": 16,
+      "current_stock": 132,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 282,
+      "centre_id": 12,
+      "medicine_id": 16,
+      "current_stock": 244,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 283,
+      "centre_id": 13,
+      "medicine_id": 16,
+      "current_stock": 356,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 284,
+      "centre_id": 14,
+      "medicine_id": 16,
+      "current_stock": 168,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 285,
+      "centre_id": 15,
+      "medicine_id": 16,
+      "current_stock": 280,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 286,
+      "centre_id": 16,
+      "medicine_id": 16,
+      "current_stock": 392,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 287,
+      "centre_id": 17,
+      "medicine_id": 16,
+      "current_stock": 204,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 288,
+      "centre_id": 18,
+      "medicine_id": 16,
+      "current_stock": 316,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 289,
+      "centre_id": 1,
+      "medicine_id": 17,
+      "current_stock": 219,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 290,
+      "centre_id": 2,
+      "medicine_id": 17,
+      "current_stock": 338,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 291,
+      "centre_id": 3,
+      "medicine_id": 17,
+      "current_stock": 157,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 292,
+      "centre_id": 4,
+      "medicine_id": 17,
+      "current_stock": 276,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 293,
+      "centre_id": 5,
+      "medicine_id": 17,
+      "current_stock": 395,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 294,
+      "centre_id": 6,
+      "medicine_id": 17,
+      "current_stock": 214,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 295,
+      "centre_id": 7,
+      "medicine_id": 17,
+      "current_stock": 333,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 296,
+      "centre_id": 8,
+      "medicine_id": 17,
+      "current_stock": 152,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 297,
+      "centre_id": 9,
+      "medicine_id": 17,
+      "current_stock": 271,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 298,
+      "centre_id": 10,
+      "medicine_id": 17,
+      "current_stock": 390,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 299,
+      "centre_id": 11,
+      "medicine_id": 17,
+      "current_stock": 209,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 300,
+      "centre_id": 12,
+      "medicine_id": 17,
+      "current_stock": 328,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 301,
+      "centre_id": 13,
+      "medicine_id": 17,
+      "current_stock": 147,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 302,
+      "centre_id": 14,
+      "medicine_id": 17,
+      "current_stock": 266,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 303,
+      "centre_id": 15,
+      "medicine_id": 17,
+      "current_stock": 385,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 304,
+      "centre_id": 16,
+      "medicine_id": 17,
+      "current_stock": 204,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 305,
+      "centre_id": 17,
+      "medicine_id": 17,
+      "current_stock": 323,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 306,
+      "centre_id": 18,
+      "medicine_id": 17,
+      "current_stock": 142,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 307,
+      "centre_id": 1,
+      "medicine_id": 18,
+      "current_stock": 226,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 308,
+      "centre_id": 2,
+      "medicine_id": 18,
+      "current_stock": 352,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 309,
+      "centre_id": 3,
+      "medicine_id": 18,
+      "current_stock": 178,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 310,
+      "centre_id": 4,
+      "medicine_id": 18,
+      "current_stock": 304,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 311,
+      "centre_id": 5,
+      "medicine_id": 18,
+      "current_stock": 130,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 312,
+      "centre_id": 6,
+      "medicine_id": 18,
+      "current_stock": 256,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 313,
+      "centre_id": 7,
+      "medicine_id": 18,
+      "current_stock": 382,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 314,
+      "centre_id": 8,
+      "medicine_id": 18,
+      "current_stock": 208,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 315,
+      "centre_id": 9,
+      "medicine_id": 18,
+      "current_stock": 334,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 316,
+      "centre_id": 10,
+      "medicine_id": 18,
+      "current_stock": 160,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 317,
+      "centre_id": 11,
+      "medicine_id": 18,
+      "current_stock": 286,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 318,
+      "centre_id": 12,
+      "medicine_id": 18,
+      "current_stock": 112,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 319,
+      "centre_id": 13,
+      "medicine_id": 18,
+      "current_stock": 238,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 320,
+      "centre_id": 14,
+      "medicine_id": 18,
+      "current_stock": 364,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 321,
+      "centre_id": 15,
+      "medicine_id": 18,
+      "current_stock": 190,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 322,
+      "centre_id": 16,
+      "medicine_id": 18,
+      "current_stock": 316,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 323,
+      "centre_id": 17,
+      "medicine_id": 18,
+      "current_stock": 142,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 324,
+      "centre_id": 18,
+      "medicine_id": 18,
+      "current_stock": 268,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 325,
+      "centre_id": 1,
+      "medicine_id": 19,
+      "current_stock": 233,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 326,
+      "centre_id": 2,
+      "medicine_id": 19,
+      "current_stock": 366,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 327,
+      "centre_id": 3,
+      "medicine_id": 19,
+      "current_stock": 199,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 328,
+      "centre_id": 4,
+      "medicine_id": 19,
+      "current_stock": 332,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 329,
+      "centre_id": 5,
+      "medicine_id": 19,
+      "current_stock": 165,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 330,
+      "centre_id": 6,
+      "medicine_id": 19,
+      "current_stock": 298,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 331,
+      "centre_id": 7,
+      "medicine_id": 19,
+      "current_stock": 131,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 332,
+      "centre_id": 8,
+      "medicine_id": 19,
+      "current_stock": 264,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 333,
+      "centre_id": 9,
+      "medicine_id": 19,
+      "current_stock": 397,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 334,
+      "centre_id": 10,
+      "medicine_id": 19,
+      "current_stock": 230,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 335,
+      "centre_id": 11,
+      "medicine_id": 19,
+      "current_stock": 363,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 336,
+      "centre_id": 12,
+      "medicine_id": 19,
+      "current_stock": 196,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 337,
+      "centre_id": 13,
+      "medicine_id": 19,
+      "current_stock": 329,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 338,
+      "centre_id": 14,
+      "medicine_id": 19,
+      "current_stock": 162,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 339,
+      "centre_id": 15,
+      "medicine_id": 19,
+      "current_stock": 295,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 340,
+      "centre_id": 16,
+      "medicine_id": 19,
+      "current_stock": 128,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 341,
+      "centre_id": 17,
+      "medicine_id": 19,
+      "current_stock": 261,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 342,
+      "centre_id": 18,
+      "medicine_id": 19,
+      "current_stock": 394,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 343,
+      "centre_id": 1,
+      "medicine_id": 20,
+      "current_stock": 240,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 344,
+      "centre_id": 2,
+      "medicine_id": 20,
+      "current_stock": 380,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 345,
+      "centre_id": 3,
+      "medicine_id": 20,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 346,
+      "centre_id": 4,
+      "medicine_id": 20,
+      "current_stock": 360,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 347,
+      "centre_id": 5,
+      "medicine_id": 20,
+      "current_stock": 200,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 348,
+      "centre_id": 6,
+      "medicine_id": 20,
+      "current_stock": 340,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 349,
+      "centre_id": 7,
+      "medicine_id": 20,
+      "current_stock": 180,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 350,
+      "centre_id": 8,
+      "medicine_id": 20,
+      "current_stock": 320,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 351,
+      "centre_id": 9,
+      "medicine_id": 20,
+      "current_stock": 160,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 352,
+      "centre_id": 10,
+      "medicine_id": 20,
+      "current_stock": 300,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 353,
+      "centre_id": 11,
+      "medicine_id": 20,
+      "current_stock": 140,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 354,
+      "centre_id": 12,
+      "medicine_id": 20,
+      "current_stock": 280,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 355,
+      "centre_id": 13,
+      "medicine_id": 20,
+      "current_stock": 120,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 356,
+      "centre_id": 14,
+      "medicine_id": 20,
+      "current_stock": 260,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 357,
+      "centre_id": 15,
+      "medicine_id": 20,
+      "current_stock": 100,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 358,
+      "centre_id": 16,
+      "medicine_id": 20,
+      "current_stock": 240,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 359,
+      "centre_id": 17,
+      "medicine_id": 20,
+      "current_stock": 380,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 360,
+      "centre_id": 18,
+      "medicine_id": 20,
+      "current_stock": 220,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-12T23:19:16.503124"
+    },
+    {
+      "inventory_id": 20,
+      "centre_id": 2,
+      "medicine_id": 2,
+      "current_stock": 139,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-16T12:47:47.451914"
+    },
+    {
+      "inventory_id": 1,
+      "centre_id": 1,
+      "medicine_id": 1,
+      "current_stock": 142,
+      "minimum_stock": 50,
+      "maximum_stock": 500,
+      "last_updated": "2026-08-17T20:53:03.701898"
+    }
+  ],
+  "bed_occupancy": [
+    {
+      "occupancy_id": 1,
+      "ward_id": 1,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 2,
+      "ward_id": 2,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 3,
+      "ward_id": 3,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 4,
+      "ward_id": 4,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 5,
+      "ward_id": 5,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 6,
+      "ward_id": 6,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 7,
+      "ward_id": 7,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 8,
+      "ward_id": 8,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 9,
+      "ward_id": 9,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 10,
+      "ward_id": 10,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 11,
+      "ward_id": 11,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 12,
+      "ward_id": 12,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 13,
+      "ward_id": 13,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 14,
+      "ward_id": 14,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 15,
+      "ward_id": 15,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 16,
+      "ward_id": 16,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 17,
+      "ward_id": 17,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 18,
+      "ward_id": 18,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 19,
+      "ward_id": 19,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 20,
+      "ward_id": 20,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 21,
+      "ward_id": 21,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 22,
+      "ward_id": 22,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 23,
+      "ward_id": 23,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 24,
+      "ward_id": 24,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 25,
+      "ward_id": 25,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 26,
+      "ward_id": 26,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 27,
+      "ward_id": 27,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 28,
+      "ward_id": 28,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 29,
+      "ward_id": 29,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 30,
+      "ward_id": 30,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 31,
+      "ward_id": 31,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 32,
+      "ward_id": 32,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 33,
+      "ward_id": 33,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 34,
+      "ward_id": 34,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 35,
+      "ward_id": 35,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 36,
+      "ward_id": 36,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 37,
+      "ward_id": 37,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 38,
+      "ward_id": 38,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 39,
+      "ward_id": 39,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 40,
+      "ward_id": 40,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 41,
+      "ward_id": 41,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 42,
+      "ward_id": 42,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 43,
+      "ward_id": 43,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 44,
+      "ward_id": 44,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 45,
+      "ward_id": 45,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 46,
+      "ward_id": 46,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 47,
+      "ward_id": 47,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 48,
+      "ward_id": 48,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 49,
+      "ward_id": 49,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 50,
+      "ward_id": 50,
+      "occupied_beds": 4,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 51,
+      "ward_id": 51,
+      "occupied_beds": 3,
+      "available_beds": 2,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 52,
+      "ward_id": 52,
+      "occupied_beds": 18,
+      "available_beds": 12,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 53,
+      "ward_id": 53,
+      "occupied_beds": 9,
+      "available_beds": 6,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 54,
+      "ward_id": 54,
+      "occupied_beds": 6,
+      "available_beds": 4,
+      "recorded_at": "2026-08-13T00:11:07.621744"
+    },
+    {
+      "occupancy_id": 59,
+      "ward_id": 1,
+      "occupied_beds": 5,
+      "available_beds": 10,
+      "recorded_at": "2026-08-16T00:00:00"
+    },
+    {
+      "occupancy_id": 60,
+      "ward_id": 4,
+      "occupied_beds": 10,
+      "available_beds": 5,
+      "recorded_at": "2026-08-16T12:09:34.480000"
+    },
+    {
+      "occupancy_id": 61,
+      "ward_id": 4,
+      "occupied_beds": 5,
+      "available_beds": 10,
+      "recorded_at": "2026-08-16T12:10:41.285000"
+    },
+    {
+      "occupancy_id": 62,
+      "ward_id": 4,
+      "occupied_beds": 0,
+      "available_beds": 15,
+      "recorded_at": "2026-08-16T12:12:16.609000"
+    },
+    {
+      "occupancy_id": 63,
+      "ward_id": 5,
+      "occupied_beds": 5,
+      "available_beds": 3,
+      "recorded_at": "2026-08-16T12:19:12.963000"
+    },
+    {
+      "occupancy_id": 64,
+      "ward_id": 5,
+      "occupied_beds": 1,
+      "available_beds": 7,
+      "recorded_at": "2026-08-16T12:21:11.460000"
+    },
+    {
+      "occupancy_id": 65,
+      "ward_id": 6,
+      "occupied_beds": 1,
+      "available_beds": 4,
+      "recorded_at": "2026-08-16T12:22:11.692000"
+    },
+    {
+      "occupancy_id": 66,
+      "ward_id": 16,
+      "occupied_beds": 5,
+      "available_beds": 25,
+      "recorded_at": "2026-08-16T13:05:00"
+    },
+    {
+      "occupancy_id": 67,
+      "ward_id": 16,
+      "occupied_beds": 24,
+      "available_beds": 6,
+      "recorded_at": "2026-08-16T13:10:45.467000"
+    },
+    {
+      "occupancy_id": 68,
+      "ward_id": 16,
+      "occupied_beds": 24,
+      "available_beds": 6,
+      "recorded_at": "2026-08-16T13:12:05.756000"
+    },
+    {
+      "occupancy_id": 69,
+      "ward_id": 16,
+      "occupied_beds": 10,
+      "available_beds": 20,
+      "recorded_at": "2026-08-16T13:16:02.002000"
+    },
+    {
+      "occupancy_id": 70,
+      "ward_id": 16,
+      "occupied_beds": 1,
+      "available_beds": 29,
+      "recorded_at": "2026-08-16T13:16:10.971000"
+    },
+    {
+      "occupancy_id": 71,
+      "ward_id": 16,
+      "occupied_beds": 10,
+      "available_beds": 20,
+      "recorded_at": "2026-08-20T07:08:51.343000"
+    },
+    {
+      "occupancy_id": 72,
+      "ward_id": 7,
+      "occupied_beds": 20,
+      "available_beds": 10,
+      "recorded_at": "2026-08-20T12:45:52.944026"
+    },
+    {
+      "occupancy_id": 73,
+      "ward_id": 7,
+      "occupied_beds": 15,
+      "available_beds": 15,
+      "recorded_at": "2026-08-20T18:21:47.485000"
+    },
+    {
+      "occupancy_id": 74,
+      "ward_id": 4,
+      "occupied_beds": 1,
+      "available_beds": 14,
+      "recorded_at": "2026-08-21T21:51:13.354000"
+    },
+    {
+      "occupancy_id": 75,
+      "ward_id": 5,
+      "occupied_beds": 8,
+      "available_beds": 0,
+      "recorded_at": "2026-08-21T21:51:27.499000"
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": 1,
+      "centre_id": 1,
+      "alert_type": "LOW_STOCK",
+      "severity": "CRITICAL",
+      "title": "Paracetamol stock critically low",
+      "description": "Current Paracetamol stock is below the minimum required level.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 2,
+      "centre_id": 2,
+      "alert_type": "LOW_STOCK",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock is low",
+      "description": "Amoxicillin stock has fallen below the recommended threshold.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 3,
+      "centre_id": 3,
+      "alert_type": "BED_OCCUPANCY",
+      "severity": "CRITICAL",
+      "title": "Emergency ward occupancy is high",
+      "description": "Emergency ward occupancy has exceeded the critical threshold.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 4,
+      "centre_id": 4,
+      "alert_type": "DOCTOR_ABSENCE",
+      "severity": "HIGH",
+      "title": "Doctor absenteeism detected",
+      "description": "Doctor attendance is below the expected level for this centre.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 5,
+      "centre_id": 5,
+      "alert_type": "LOW_STOCK",
+      "severity": "MEDIUM",
+      "title": "ORS stock is below normal",
+      "description": "ORS inventory is approaching the minimum stock level.",
+      "status": "ACKNOWLEDGED",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 6,
+      "centre_id": 7,
+      "alert_type": "BED_OCCUPANCY",
+      "severity": "HIGH",
+      "title": "General ward occupancy is high",
+      "description": "General ward occupancy has crossed the warning threshold.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 7,
+      "centre_id": 9,
+      "alert_type": "DOCTOR_ABSENCE",
+      "severity": "CRITICAL",
+      "title": "Multiple doctor absences detected",
+      "description": "More than one doctor is unavailable at this centre.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 8,
+      "centre_id": 11,
+      "alert_type": "LOW_STOCK",
+      "severity": "HIGH",
+      "title": "Antibiotic stock shortage",
+      "description": "One or more antibiotics have fallen below the required stock level.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 9,
+      "centre_id": 14,
+      "alert_type": "BED_OCCUPANCY",
+      "severity": "MEDIUM",
+      "title": "Maternity ward occupancy increasing",
+      "description": "Maternity ward occupancy is approaching the warning threshold.",
+      "status": "ACKNOWLEDGED",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 10,
+      "centre_id": 16,
+      "alert_type": "LOW_STOCK",
+      "severity": "CRITICAL",
+      "title": "Critical medicine shortage",
+      "description": "Multiple medicines are below their minimum stock levels.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 11,
+      "centre_id": 18,
+      "alert_type": "DOCTOR_ABSENCE",
+      "severity": "MEDIUM",
+      "title": "Doctor attendance below target",
+      "description": "Doctor attendance has fallen below the centre target.",
+      "status": "RESOLVED",
+      "created_at": "2026-08-13T00:18:37.902336",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 12,
+      "centre_id": 5,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 4.4 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 13,
+      "centre_id": 15,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 6.4 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 14,
+      "centre_id": 14,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 6.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 15,
+      "centre_id": 3,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 6.0 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 16,
+      "centre_id": 5,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 6.9 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 17,
+      "centre_id": 1,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 3.9 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 18,
+      "centre_id": 12,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 4.6 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 19,
+      "centre_id": 18,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 6.4 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 20,
+      "centre_id": 7,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 5.1 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 21,
+      "centre_id": 3,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Metformin stock-out risk",
+      "description": "Estimated stock remaining: 4.9 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 22,
+      "centre_id": 10,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 5.2 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 23,
+      "centre_id": 11,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 6.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 24,
+      "centre_id": 1,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Ibuprofen stock-out risk",
+      "description": "Estimated stock remaining: 3.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 25,
+      "centre_id": 1,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 3.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 26,
+      "centre_id": 2,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 5.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 27,
+      "centre_id": 13,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 3.9 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 28,
+      "centre_id": 11,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Metformin stock-out risk",
+      "description": "Estimated stock remaining: 5.1 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 29,
+      "centre_id": 14,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 6.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 30,
+      "centre_id": 6,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Metformin stock-out risk",
+      "description": "Estimated stock remaining: 5.5 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 31,
+      "centre_id": 18,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 5.6 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 32,
+      "centre_id": 2,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 3.6 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 33,
+      "centre_id": 9,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 6.1 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 34,
+      "centre_id": 1,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 4.4 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 35,
+      "centre_id": 4,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 4.0 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 36,
+      "centre_id": 13,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 4.7 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 37,
+      "centre_id": 17,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 4.9 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 38,
+      "centre_id": 14,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Metformin stock-out risk",
+      "description": "Estimated stock remaining: 6.0 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 39,
+      "centre_id": 1,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Metformin stock-out risk",
+      "description": "Estimated stock remaining: 6.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 40,
+      "centre_id": 9,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 4.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 41,
+      "centre_id": 15,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 3.9 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 42,
+      "centre_id": 17,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 6.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 43,
+      "centre_id": 2,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 4.4 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 44,
+      "centre_id": 13,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 6.7 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 45,
+      "centre_id": 6,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 4.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 46,
+      "centre_id": 12,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 6.0 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 47,
+      "centre_id": 4,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 5.7 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 48,
+      "centre_id": 4,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 6.6 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 49,
+      "centre_id": 1,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 5.5 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 50,
+      "centre_id": 16,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 4.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 51,
+      "centre_id": 10,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 6.7 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 52,
+      "centre_id": 8,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 5.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 53,
+      "centre_id": 3,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Amoxicillin stock-out risk",
+      "description": "Estimated stock remaining: 5.0 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 54,
+      "centre_id": 17,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Metformin stock-out risk",
+      "description": "Estimated stock remaining: 6.2 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 55,
+      "centre_id": 5,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 4.8 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 56,
+      "centre_id": 11,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Azithromycin stock-out risk",
+      "description": "Estimated stock remaining: 3.3 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 57,
+      "centre_id": 14,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "ORS stock-out risk",
+      "description": "Estimated stock remaining: 6.2 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    },
+    {
+      "alert_id": 58,
+      "centre_id": 3,
+      "alert_type": "STOCK_OUT",
+      "severity": "HIGH",
+      "title": "Paracetamol stock-out risk",
+      "description": "Estimated stock remaining: 4.1 days.",
+      "status": "OPEN",
+      "created_at": "2026-08-13T00:28:35.297952",
+      "resolved_at": null
+    }
+  ],
+  "ai_predictions": [
+    {
+      "prediction_id": 1,
+      "centre_id": 1,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 1,
+      "predicted_value": 4.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 91.0,
+      "explanation": "Paracetamol consumption is high and current stock is declining rapidly.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 2,
+      "centre_id": 2,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 3,
+      "predicted_value": 6.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 87.0,
+      "explanation": "Amoxicillin usage has increased over the recent period.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 3,
+      "centre_id": 4,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 10,
+      "predicted_value": 5.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 89.0,
+      "explanation": "ORS consumption is higher than the normal daily average.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 4,
+      "centre_id": 7,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 4,
+      "predicted_value": 8.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 84.0,
+      "explanation": "Azithromycin stock is declining based on recent dispensing records.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 5,
+      "centre_id": 9,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 8,
+      "predicted_value": 7.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 88.0,
+      "explanation": "Omeprazole consumption indicates increasing demand.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 6,
+      "centre_id": 12,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 12,
+      "predicted_value": 5.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 86.0,
+      "explanation": "Iron Folic Acid stock is declining faster than expected.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 7,
+      "centre_id": 15,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 19,
+      "predicted_value": 9.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 82.0,
+      "explanation": "Normal Saline consumption is approaching the reorder threshold.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 8,
+      "centre_id": 18,
+      "prediction_type": "STOCK_OUT",
+      "target_id": 16,
+      "predicted_value": 6.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 90.0,
+      "explanation": "Metformin consumption is consistently high.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 9,
+      "centre_id": 3,
+      "prediction_type": "BED_DEMAND",
+      "target_id": 1,
+      "predicted_value": 8.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 79.0,
+      "explanation": "Emergency ward occupancy is expected to increase.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 10,
+      "centre_id": 6,
+      "prediction_type": "BED_DEMAND",
+      "target_id": 2,
+      "predicted_value": 12.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 83.0,
+      "explanation": "General ward demand is expected to increase.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 11,
+      "centre_id": 11,
+      "prediction_type": "BED_DEMAND",
+      "target_id": 3,
+      "predicted_value": 10.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 81.0,
+      "explanation": "Maternity ward demand is expected to rise.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 12,
+      "centre_id": 5,
+      "prediction_type": "HEALTH_SCORE",
+      "target_id": null,
+      "predicted_value": 72.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 88.0,
+      "explanation": "Centre performance is affected by low medicine stock and moderate bed occupancy.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 13,
+      "centre_id": 9,
+      "prediction_type": "HEALTH_SCORE",
+      "target_id": null,
+      "predicted_value": 48.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 92.0,
+      "explanation": "High doctor absenteeism and medicine shortages are affecting the centre.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    },
+    {
+      "prediction_id": 14,
+      "centre_id": 16,
+      "prediction_type": "HEALTH_SCORE",
+      "target_id": null,
+      "predicted_value": 61.0,
+      "prediction_date": "2026-08-12",
+      "confidence": 85.0,
+      "explanation": "Medicine availability is below the desired level.",
+      "created_at": "2026-08-13T00:22:41.778646"
+    }
+  ],
+  "centre_health_scores": [
+    {
+      "score_id": 1,
+      "centre_id": 1,
+      "score": 88.0,
+      "status": "GREEN",
+      "explanation": "Good medicine availability, normal bed occupancy and high doctor attendance.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 2,
+      "centre_id": 2,
+      "score": 76.0,
+      "status": "GREEN",
+      "explanation": "Overall centre performance is good with minor medicine stock concerns.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 3,
+      "centre_id": 3,
+      "score": 69.0,
+      "status": "AMBER",
+      "explanation": "Moderate bed occupancy and some medicine stock pressure detected.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 4,
+      "centre_id": 4,
+      "score": 61.0,
+      "status": "AMBER",
+      "explanation": "Medicine availability is declining and doctor attendance requires monitoring.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 5,
+      "centre_id": 5,
+      "score": 82.0,
+      "status": "GREEN",
+      "explanation": "Good medicine availability and stable healthcare operations.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 6,
+      "centre_id": 6,
+      "score": 73.0,
+      "status": "GREEN",
+      "explanation": "Centre is operating normally with moderate bed occupancy.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 7,
+      "centre_id": 7,
+      "score": 58.0,
+      "status": "AMBER",
+      "explanation": "High ward occupancy and moderate medicine shortages detected.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 8,
+      "centre_id": 8,
+      "score": 91.0,
+      "status": "GREEN",
+      "explanation": "Excellent medicine availability, bed capacity and staff attendance.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 9,
+      "centre_id": 9,
+      "score": 42.0,
+      "status": "RED",
+      "explanation": "High doctor absenteeism combined with medicine shortages requires immediate attention.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 10,
+      "centre_id": 10,
+      "score": 79.0,
+      "status": "GREEN",
+      "explanation": "Centre operations are stable with adequate medicine and bed availability.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 11,
+      "centre_id": 11,
+      "score": 65.0,
+      "status": "AMBER",
+      "explanation": "Medicine stock pressure and increasing ward occupancy detected.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 12,
+      "centre_id": 12,
+      "score": 84.0,
+      "status": "GREEN",
+      "explanation": "Good overall performance with adequate resources.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 13,
+      "centre_id": 13,
+      "score": 71.0,
+      "status": "GREEN",
+      "explanation": "Stable centre performance with moderate resource utilization.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 14,
+      "centre_id": 14,
+      "score": 55.0,
+      "status": "AMBER",
+      "explanation": "Maternity ward occupancy is increasing and some medicines are below target stock.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 15,
+      "centre_id": 15,
+      "score": 87.0,
+      "status": "GREEN",
+      "explanation": "Strong operational performance and adequate resource availability.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 16,
+      "centre_id": 16,
+      "score": 39.0,
+      "status": "RED",
+      "explanation": "Critical medicine shortages and high resource utilization detected.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 17,
+      "centre_id": 17,
+      "score": 68.0,
+      "status": "AMBER",
+      "explanation": "Doctor attendance and medicine availability require monitoring.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    },
+    {
+      "score_id": 18,
+      "centre_id": 18,
+      "score": 47.0,
+      "status": "RED",
+      "explanation": "Low medicine availability and reduced staff attendance require immediate action.",
+      "calculated_at": "2026-08-13T00:23:19.442967"
+    }
+  ],
+  "users": [
+    {
+      "user_id": 3,
+      "name": "Trichy District Admin",
+      "email": "admin.trichy@swasthyanet.com",
+      "password_hash": "demo_hash_admin_03",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 3
+    },
+    {
+      "user_id": 4,
+      "name": "Madurai District Admin",
+      "email": "admin.madurai@swasthyanet.com",
+      "password_hash": "demo_hash_admin_04",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 4
+    },
+    {
+      "user_id": 5,
+      "name": "Kanyakumari District Admin",
+      "email": "admin.kanyakumari@swasthyanet.com",
+      "password_hash": "demo_hash_admin_05",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 5
+    },
+    {
+      "user_id": 6,
+      "name": "Tiruppur District Admin",
+      "email": "admin.tiruppur@swasthyanet.com",
+      "password_hash": "demo_hash_admin_06",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 6
+    },
+    {
+      "user_id": 7,
+      "name": "Namakkal District Admin",
+      "email": "admin.namakkal@swasthyanet.com",
+      "password_hash": "demo_hash_admin_07",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 7
+    },
+    {
+      "user_id": 11,
+      "name": "Chennai North PHC Staff",
+      "email": "staff04@swasthyanet.com",
+      "password_hash": "demo_hash_11",
+      "role": "PHC_STAFF",
+      "centre_id": 4,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 2
+    },
+    {
+      "user_id": 12,
+      "name": "Chennai South PHC Staff",
+      "email": "staff05@swasthyanet.com",
+      "password_hash": "demo_hash_12",
+      "role": "PHC_STAFF",
+      "centre_id": 5,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 2
+    },
+    {
+      "user_id": 14,
+      "name": "Trichy East PHC Staff",
+      "email": "staff07@swasthyanet.com",
+      "password_hash": "demo_hash_14",
+      "role": "PHC_STAFF",
+      "centre_id": 7,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 3
+    },
+    {
+      "user_id": 15,
+      "name": "Trichy Central CHC Staff",
+      "email": "staff08@swasthyanet.com",
+      "password_hash": "demo_hash_15",
+      "role": "CHC_STAFF",
+      "centre_id": 8,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 3
+    },
+    {
+      "user_id": 16,
+      "name": "Madurai North PHC Staff",
+      "email": "staff09@swasthyanet.com",
+      "password_hash": "demo_hash_16",
+      "role": "PHC_STAFF",
+      "centre_id": 9,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 4
+    },
+    {
+      "user_id": 17,
+      "name": "Madurai South PHC Staff",
+      "email": "staff10@swasthyanet.com",
+      "password_hash": "demo_hash_17",
+      "role": "PHC_STAFF",
+      "centre_id": 10,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 4
+    },
+    {
+      "user_id": 18,
+      "name": "Madurai Central CHC Staff",
+      "email": "staff11@swasthyanet.com",
+      "password_hash": "demo_hash_18",
+      "role": "CHC_STAFF",
+      "centre_id": 11,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 4
+    },
+    {
+      "user_id": 19,
+      "name": "Kanyakumari North PHC Staff",
+      "email": "staff12@swasthyanet.com",
+      "password_hash": "demo_hash_19",
+      "role": "PHC_STAFF",
+      "centre_id": 12,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 5
+    },
+    {
+      "user_id": 20,
+      "name": "Kanyakumari Central CHC Staff",
+      "email": "staff13@swasthyanet.com",
+      "password_hash": "demo_hash_20",
+      "role": "CHC_STAFF",
+      "centre_id": 13,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 5
+    },
+    {
+      "user_id": 21,
+      "name": "Tiruppur North PHC Staff",
+      "email": "staff14@swasthyanet.com",
+      "password_hash": "demo_hash_21",
+      "role": "PHC_STAFF",
+      "centre_id": 14,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 6
+    },
+    {
+      "user_id": 22,
+      "name": "Tiruppur South PHC Staff",
+      "email": "staff15@swasthyanet.com",
+      "password_hash": "demo_hash_22",
+      "role": "PHC_STAFF",
+      "centre_id": 15,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 6
+    },
+    {
+      "user_id": 23,
+      "name": "Tiruppur Central CHC Staff",
+      "email": "staff16@swasthyanet.com",
+      "password_hash": "demo_hash_23",
+      "role": "CHC_STAFF",
+      "centre_id": 16,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 6
+    },
+    {
+      "user_id": 24,
+      "name": "Namakkal North PHC Staff",
+      "email": "staff17@swasthyanet.com",
+      "password_hash": "demo_hash_24",
+      "role": "PHC_STAFF",
+      "centre_id": 17,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 7
+    },
+    {
+      "user_id": 25,
+      "name": "Namakkal Central CHC Staff",
+      "email": "staff18@swasthyanet.com",
+      "password_hash": "demo_hash_25",
+      "role": "CHC_STAFF",
+      "centre_id": 18,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 7
+    },
+    {
+      "user_id": 41,
+      "name": "MK",
+      "email": "barnikadharmalingam@gmail.com",
+      "password_hash": "$2b$12$Sdvhk3hGsbEncj/EnhxxxemSnrdEakCagDrrmalfQNebOvTgnpMo2",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": false,
+      "must_change_password": true,
+      "created_at": "2026-08-27T19:12:56.937964",
+      "district_id": 1
+    },
+    {
+      "user_id": 40,
+      "name": "Manikandan",
+      "email": "24d126@gmail.com",
+      "password_hash": "$2b$12$lB/BpdqCeCph628.E6bNF.TfO/C19ttSdHDZz7eKKoEA1oxoGW08y",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": false,
+      "must_change_password": true,
+      "created_at": "2026-08-27T19:10:19.482422",
+      "district_id": 5
+    },
+    {
+      "user_id": 42,
+      "name": "Super Administrator",
+      "email": "superadmin@swasthyanet.com",
+      "password_hash": "$2b$12$I6Ijos0egfbhGjBPJrR08eNbNoelohNUzUOtD.y5j2pR3dnrVPJ8u",
+      "role": "SUPER_ADMIN",
+      "centre_id": null,
+      "language": null,
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-09-20T23:24:13.882154",
+      "district_id": null
+    },
+    {
+      "user_id": 9,
+      "name": "Coimbatore East PHC Staff",
+      "email": "staff02@swasthyanet.com",
+      "password_hash": "$2b$12$nIKuAyJHmDNNbpQjq5gGI.WH45hCbAFWOo6xH3OBwX/.PdP/GC3.q",
+      "role": "PHC_STAFF",
+      "centre_id": 2,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 1
+    },
+    {
+      "user_id": 13,
+      "name": "Chennai Central CHC Staff",
+      "email": "staff06@swasthyanet.com",
+      "password_hash": "$2b$12$xvs3.JSzr2CltApLEwN9YesdkCXvuqE16T8Tqj93UCLSDVkBzuzH6",
+      "role": "CHC_STAFF",
+      "centre_id": 6,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 2
+    },
+    {
+      "user_id": 1,
+      "name": "Coimbatore District Admin",
+      "email": "admin.coimbatore@swasthyanet.com",
+      "password_hash": "$2b$12$I6Ijos0egfbhGjBPJrR08eNbNoelohNUzUOtD.y5j2pR3dnrVPJ8u",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 1
+    },
+    {
+      "user_id": 27,
+      "name": "Test DA 1159",
+      "email": "testda_1159@swasthyanet.com",
+      "password_hash": "$2b$12$oG75o99IpJTaZcTmTEPBVehf9RC0eB8FRhsI9fibhBLa7mKoFUj8K",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:21:21.353949",
+      "district_id": 2
+    },
+    {
+      "user_id": 33,
+      "name": "Dr. Ananya Sharma",
+      "email": "ananya.phc@swasthyanet.com",
+      "password_hash": "$2b$12$K3teTV.tWvQVn67RRVhv7.Gi3jNae/ln5a/IQYNr0iNFIoNIEZGvu",
+      "role": "PHC_STAFF",
+      "centre_id": 1,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:29:30.926314",
+      "district_id": 1
+    },
+    {
+      "user_id": 28,
+      "name": "Test PHC 1159",
+      "email": "testphc_1159@swasthyanet.com",
+      "password_hash": "$2b$12$4T0u9lYDo2uVRmDkr7WEiuXRgrZh1wzQ8gn4v3rgLHYBhKI0cw.Fu",
+      "role": "PHC_STAFF",
+      "centre_id": 1,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:21:23.662717",
+      "district_id": 1
+    },
+    {
+      "user_id": 29,
+      "name": "DA Created Staff 1159",
+      "email": "dastaff_1159@swasthyanet.com",
+      "password_hash": "$2b$12$wZYYeLMyv43tIDIDAVBSJebZrIeRgM3TGz7tsyWq/V3zNZ3O8AhZO",
+      "role": "PHC_STAFF",
+      "centre_id": 1,
+      "language": "en",
+      "is_active": false,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:21:34.165509",
+      "district_id": 1
+    },
+    {
+      "user_id": 30,
+      "name": "Test DA 5298",
+      "email": "testda_5298@swasthyanet.com",
+      "password_hash": "$2b$12$ZzqCxWQn1O2XcgyXQL2ECu5lDCAjQ4Cmu4jpCwpCeIdOIGmHsVnMa",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:21:53.821754",
+      "district_id": 2
+    },
+    {
+      "user_id": 34,
+      "name": "Manikandan",
+      "email": "manikandandharmalingam9594@gmail.com",
+      "password_hash": "$2b$12$HUN84cZOTuwB94sav6clv.8esbQYYp3UpUp1/zuUoOhSLPmS1H1nO",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T21:33:41.009919",
+      "district_id": 2
+    },
+    {
+      "user_id": 31,
+      "name": "Test PHC 5298",
+      "email": "testphc_5298@swasthyanet.com",
+      "password_hash": "$2b$12$x7eqaNwGE0xzSnx0JIq/UuZZT1Ehec.fixeISRQnxw1F03.Hq8kQ.",
+      "role": "PHC_STAFF",
+      "centre_id": 1,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:21:56.089989",
+      "district_id": 1
+    },
+    {
+      "user_id": 32,
+      "name": "DA Created Staff 5298",
+      "email": "dastaff_5298@swasthyanet.com",
+      "password_hash": "$2b$12$NZ8pNnoWQ1cj4Z/T/eTdmuV1asoDDPiVWaKxF/vSU1T5RogwfRlvW",
+      "role": "PHC_STAFF",
+      "centre_id": 1,
+      "language": "en",
+      "is_active": false,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T15:22:06.600429",
+      "district_id": 1
+    },
+    {
+      "user_id": 36,
+      "name": "Test Chennai Admin",
+      "email": "test.chennai@swasthyanet.com",
+      "password_hash": "$2b$12$.eLPo7EmpbKq.NXXhi.tseqT.aWe9sVlQ/mvJzCJJIcNA1F4Q91Iq",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-17T20:11:52.951715",
+      "district_id": 2
+    },
+    {
+      "user_id": 37,
+      "name": "Chennai North PHC Staff 2",
+      "email": "staff.chennai.north.2@swasthyanet.com",
+      "password_hash": "$2b$12$q9sUzqgq7zLB74u1/olGc.pK4/7ekVwjBAoSf2rPjL8bkS.QrNvkS",
+      "role": "PHC_STAFF",
+      "centre_id": 4,
+      "language": "en",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-17T20:16:07.307528",
+      "district_id": 2
+    },
+    {
+      "user_id": 35,
+      "name": "MK",
+      "email": "24d126@psgitech.ac.in",
+      "password_hash": "$2b$12$Rgrofc3jyaRXxvq0yH3BRug2xN40Q.1/KPRgr6vJ6YqTPaiCI4Oc6",
+      "role": "PHC_STAFF",
+      "centre_id": 5,
+      "language": "en",
+      "is_active": false,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T21:34:44.277903",
+      "district_id": 2
+    },
+    {
+      "user_id": 2,
+      "name": "Chennai District Admin",
+      "email": "admin.chennai@swasthyanet.com",
+      "password_hash": "$2b$12$I6Ijos0egfbhGjBPJrR08eNbNoelohNUzUOtD.y5j2pR3dnrVPJ8u",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 2
+    },
+    {
+      "user_id": 8,
+      "name": "Coimbatore Central PHC Staff",
+      "email": "staff01@swasthyanet.com",
+      "password_hash": "$2b$12$I6Ijos0egfbhGjBPJrR08eNbNoelohNUzUOtD.y5j2pR3dnrVPJ8u",
+      "role": "PHC_STAFF",
+      "centre_id": 1,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 1
+    },
+    {
+      "user_id": 43,
+      "name": "Ramesh",
+      "email": "mkdharma9594@gmail.com",
+      "password_hash": "$2b$12$eAW7yBPCL.JWTF935mInIOFfi4/WIFQXw2rdu2LCiTIOXC9j8AzRG",
+      "role": "PHC_STAFF",
+      "centre_id": 14,
+      "language": "en",
+      "is_active": true,
+      "is_activated": false,
+      "must_change_password": true,
+      "created_at": "2026-09-20T23:33:34.458540",
+      "district_id": 6
+    },
+    {
+      "user_id": 44,
+      "name": "Test DA",
+      "email": "testda.new@swasthyanet.com",
+      "password_hash": "$2b$12$UM/RyM9JDe5YHF/x6cc/uu3.MKkMis3.Ya9VoNOJeDQPyS7L5m0zW",
+      "role": "DISTRICT_ADMIN",
+      "centre_id": null,
+      "language": "en",
+      "is_active": true,
+      "is_activated": false,
+      "must_change_password": true,
+      "created_at": "2026-09-20T23:39:02.675797",
+      "district_id": 1
+    },
+    {
+      "user_id": 26,
+      "name": "Manikandan D",
+      "email": "manikandand9594@gmail.com",
+      "password_hash": "$2b$12$1LALgVewzbJw6AXlwmTLqO1sjA64ix6CQlBhzVyjc71yuc2HA8aAW",
+      "role": "SUPER_ADMIN",
+      "centre_id": null,
+      "language": null,
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-16T09:32:01.830666",
+      "district_id": null
+    },
+    {
+      "user_id": 10,
+      "name": "Coimbatore Central CHC Staff",
+      "email": "staff03@swasthyanet.com",
+      "password_hash": "$2b$12$I6Ijos0egfbhGjBPJrR08eNbNoelohNUzUOtD.y5j2pR3dnrVPJ8u",
+      "role": "CHC_STAFF",
+      "centre_id": 3,
+      "language": "Tamil",
+      "is_active": true,
+      "is_activated": true,
+      "must_change_password": false,
+      "created_at": "2026-08-13T00:07:55.440440",
+      "district_id": 1
+    }
+  ]
+}

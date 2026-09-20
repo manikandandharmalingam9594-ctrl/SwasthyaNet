@@ -132,6 +132,10 @@ const AiAggregatedInsightsSection = ({ centres = [], title = "AI Predictive Insi
   const fetchDrilldownFacility = async (cId) => {
     if (!cId) return;
     try {
+      setSelectedFacilityData({
+        inventory: [],
+        wards: []
+      });
       const [invRes, wardsRes] = await Promise.all([
         api.get(`/centres/${cId}/inventory`).catch(() => ({ data: [] })),
         api.get(`/centres/${cId}/wards`).catch(() => ({ data: [] }))
@@ -386,6 +390,7 @@ const AiAggregatedInsightsSection = ({ centres = [], title = "AI Predictive Insi
             <div className="space-y-6">
               {/* Detailed Stockout Prediction for Selected Facility */}
               <AiStockoutPredictionSection
+                key={`stockout-${selectedCentreObj.centre_id}`}
                 centreId={selectedCentreObj.centre_id}
                 inventory={selectedFacilityData.inventory}
                 medicines={medicinesList}
@@ -394,6 +399,7 @@ const AiAggregatedInsightsSection = ({ centres = [], title = "AI Predictive Insi
 
               {/* Detailed Bed Forecast for Selected Facility */}
               <AiBedForecastSection
+                key={`bed-${selectedCentreObj.centre_id}`}
                 centreId={selectedCentreObj.centre_id}
                 wards={selectedFacilityData.wards}
                 title={`AI Bed Occupancy Forecasting — ${selectedCentreObj.centre_name}`}

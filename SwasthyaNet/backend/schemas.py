@@ -1,4 +1,4 @@
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 from typing import Optional, List
 from datetime import datetime, date
 
@@ -201,20 +201,43 @@ class UserBase(BaseModel):
     centre_id: Optional[int] = None
     language: Optional[str] = None
     is_active: Optional[bool] = True
+    is_activated: Optional[bool] = False
+    must_change_password: Optional[bool] = False
     district_id: Optional[int] = None
 
 class UserCreate(BaseModel):
     name: str
     email: str
-    password: str
+    password: Optional[str] = Field(None, description="Initial password. If omitted, automatically generated.")
     role: str
     centre_id: Optional[int] = None
     district_id: Optional[int] = None
     language: Optional[str] = "en"
     is_active: Optional[bool] = True
 
+class UserPasswordReset(BaseModel):
+    password: str = Field(..., min_length=6, description="New password (minimum 6 characters)")
+
 class UserStatusUpdate(BaseModel):
     is_active: bool
+
+class UserActivationRequest(BaseModel):
+    token: str
+    temporary_password: Optional[str] = None
+    new_password: str = Field(..., min_length=6, description="New permanent password (minimum 6 characters)")
+
+class ActivationTokenVerifyResponse(BaseModel):
+    valid: bool
+    user_id: int
+    name: str
+    email: str
+    role: str
+    centre_name: Optional[str] = None
+    district_name: Optional[str] = None
+    is_activated: bool
+
+class ResendActivationRequest(BaseModel):
+    user_id: int
 
 class User(UserBase):
     user_id: int
@@ -225,3 +248,29 @@ class Token(BaseModel):
     access_token: str
     token_type: str
     user: User
+    must_change_password: Optional[bool] = False
+
+# -----------------------------------------------------------------------------
+# Chatbot Assistant Schemas
+# -----------------------------------------------------------------------------
+class NavigationAction(BaseModel):
+    destination: str
+    action: str = "OPEN_PAGE"
+    params: Optional[dict] = None
+    authorized: bool = True
+    reason: Optional[str] = None
+
+class ChatRequest(BaseModel):
+    message: str
+    centre_id: Optional[int] = None
+    medicine_id: Optional[int] = None
+    ward_id: Optional[int] = None
+
+class ChatResponse(BaseModel):
+    intent: str
+    answer: str
+    trusted_data: Optional[dict] = None
+    scope: dict
+    navigation: Optional[NavigationAction] = None
+    suggested_actions: Optional[List[str]] = []
+    timestamp: str

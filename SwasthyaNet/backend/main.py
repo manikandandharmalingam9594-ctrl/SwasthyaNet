@@ -7,7 +7,7 @@ import models
 from routers import (
     auth,
     districts, centres, wards, doctors, attendance,
-    medicines, inventory, alerts, health_scores, transfers, sync, users, ai
+    medicines, inventory, alerts, health_scores, transfers, sync, users, ai, chatbot
 )
 
 # Create all database tables
@@ -39,6 +39,7 @@ app.include_router(health_scores.router, prefix="/api")
 app.include_router(transfers.router, prefix="/api")
 app.include_router(sync.router, prefix="/api")
 app.include_router(ai.router, prefix="/api")
+app.include_router(chatbot.router, prefix="/api")
 
 @app.get("/")
 def read_root():

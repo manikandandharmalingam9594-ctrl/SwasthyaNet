@@ -18,7 +18,10 @@ import {
   Mail,
   User as UserIcon,
   ToggleLeft,
-  ToggleRight
+  ToggleRight,
+  Send,
+  Sparkles,
+  KeyRound
 } from 'lucide-react';
 
 const UserManager = () => {
@@ -31,6 +34,7 @@ const UserManager = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [successToast, setSuccessToast] = useState('');
+  const [resendingId, setResendingId] = useState(null);
 
   // Filtering
   const [searchQuery, setSearchQuery] = useState('');
@@ -41,6 +45,9 @@ const UserManager = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formError, setFormError] = useState(null);
+  const [useCustomPassword, setUseCustomPassword] = useState(false);
+  const [createdUserSummary, setCreatedUserSummary] = useState(null);
+  const [copiedField, setCopiedField] = useState('');
 
   // Form Fields
   const [formData, setFormData] = useState({
@@ -54,7 +61,13 @@ const UserManager = () => {
 
   const showToast = (msg) => {
     setSuccessToast(msg);
-    setTimeout(() => setSuccessToast(''), 4000);
+    setTimeout(() => setSuccessToast(''), 5000);
+  };
+
+  const copyToClipboard = (text, fieldName) => {
+    navigator.clipboard.writeText(text);
+    setCopiedField(fieldName);
+    setTimeout(() => setCopiedField(''), 3000);
   };
 
   const fetchUsersAndMetadata = async () => {
@@ -99,6 +112,23 @@ const UserManager = () => {
     }
   };
 
+  const handleResendActivation = async (targetUser) => {
+    try {
+      setResendingId(targetUser.user_id);
+      const res = await api.post(`/users/${targetUser.user_id}/resend-activation`);
+      showToast(res.data.message || `Activation invite resent to ${targetUser.email}!`);
+      // Update local state to reflect pending status
+      setUsersList(prev => prev.map(u => 
+        u.user_id === targetUser.user_id ? { ...u, is_activated: false, must_change_password: true } : u
+      ));
+    } catch (err) {
+      console.error('Error resending activation:', err);
+      alert(err.response?.data?.detail || 'Failed to resend activation invite.');
+    } finally {
+      setResendingId(null);
+    }
+  };
+
   const handleCreateUser = async (e) => {
     e.preventDefault();
     setFormError(null);
@@ -108,15 +138,18 @@ const UserManager = () => {
       const payload = {
         name: formData.name.trim(),
         email: formData.email.trim(),
-        password: formData.password,
         role: formData.role,
-        district_id: formData.district_id ? parseInt(formData.district_id) : null,
-        centre_id: formData.centre_id ? parseInt(formData.centre_id) : null,
+        district_id: (formData.role !== 'SUPER_ADMIN' && formData.district_id) ? parseInt(formData.district_id) : null,
+        centre_id: (formData.role !== 'SUPER_ADMIN' && formData.role !== 'DISTRICT_ADMIN' && formData.centre_id) ? parseInt(formData.centre_id) : null,
         is_active: true
       };
 
-      if (!payload.name || !payload.email || !payload.password) {
-        throw new Error('Please fill in all required fields.');
+      if (useCustomPassword && formData.password) {
+        payload.password = formData.password.trim();
+      }
+
+      if (!payload.name || !payload.email) {
+        throw new Error('Please fill in Name and Email address.');
       }
 
       if (payload.role === 'DISTRICT_ADMIN' && !payload.district_id) {
@@ -128,7 +161,7 @@ const UserManager = () => {
       }
 
       const res = await api.post('/users', payload);
-      showToast(`User account for ${res.data.email} created successfully!`);
+      showToast(`User account for ${res.data.email} created! Activation email dispatched.`);
       setIsModalOpen(false);
       
       // Reset form
@@ -140,12 +173,22 @@ const UserManager = () => {
         district_id: isSuperAdmin ? '' : currentUser?.district_id || '',
         centre_id: ''
       });
+      setUseCustomPassword(false);
 
       // Refresh list
       fetchUsersAndMetadata();
     } catch (err) {
       console.error('Error creating user:', err);
-      setFormError(err.response?.data?.detail || err.message || 'Failed to create user account.');
+      const backendMsg = err.response?.data?.detail;
+      let errorText = 'Failed to create user account.';
+      if (typeof backendMsg === 'string') {
+        errorText = backendMsg;
+      } else if (Array.isArray(backendMsg)) {
+        errorText = backendMsg.map(m => m.msg || m.detail || JSON.stringify(m)).join(', ');
+      } else if (err.message) {
+        errorText = err.message;
+      }
+      setFormError(errorText);
     } finally {
       setIsSubmitting(false);
     }
@@ -285,7 +328,10 @@ const UserManager = () => {
                     Jurisdiction / Assignment
                   </th>
                   <th scope="col" className="px-6 py-3.5 text-left text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    Status
+                    Account Status
+                  </th>
+                  <th scope="col" className="px-6 py-3.5 text-left text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                    Activation
                   </th>
                   <th scope="col" className="px-6 py-3.5 text-right text-xs font-semibold text-slate-500 uppercase tracking-wider">
                     Actions
@@ -297,6 +343,7 @@ const UserManager = () => {
                   const centre = centreMap[u.centre_id];
                   const districtName = districtMap[u.district_id] || (centre ? districtMap[centre.district_id] : null);
                   const isSelf = u.user_id === currentUser?.user_id;
+                  const isResending = resendingId === u.user_id;
 
                   return (
                     <tr key={u.user_id} className="hover:bg-slate-50 transition">
@@ -355,22 +402,54 @@ const UserManager = () => {
                           {u.is_active ? 'Active' : 'Inactive'}
                         </span>
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        {/* Only allow toggle if not self and permitted by RBAC */}
-                        {!isSelf && (isSuperAdmin || (u.role !== 'SUPER_ADMIN' && u.role !== 'DISTRICT_ADMIN')) ? (
-                          <button
-                            onClick={() => handleToggleStatus(u)}
-                            className={`inline-flex items-center px-2.5 py-1 text-xs font-semibold rounded-md border transition ${
-                              u.is_active
-                                ? 'border-rose-300 text-rose-700 hover:bg-rose-50'
-                                : 'border-emerald-300 text-emerald-700 hover:bg-emerald-50'
-                            }`}
-                          >
-                            {u.is_active ? 'Deactivate' : 'Activate'}
-                          </button>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {u.is_activated ? (
+                          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200">
+                            <CheckCircle2 className="h-3 w-3 mr-1 text-emerald-600" />
+                            Activated
+                          </span>
                         ) : (
-                          <span className="text-xs text-slate-400 italic">Protected</span>
+                          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200">
+                            <KeyRound className="h-3 w-3 mr-1 text-amber-500" />
+                            Pending Setup
+                          </span>
                         )}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <div className="flex items-center justify-end space-x-2">
+                          {/* Resend Activation Invite if pending */}
+                          {!u.is_activated && !isSelf && (isSuperAdmin || (u.role !== 'SUPER_ADMIN' && u.role !== 'DISTRICT_ADMIN')) && (
+                            <button
+                              onClick={() => handleResendActivation(u)}
+                              disabled={isResending}
+                              title="Resend invitation & temporary password email"
+                              className="inline-flex items-center px-2 py-1 text-xs font-semibold rounded-md border border-indigo-200 text-indigo-700 bg-indigo-50 hover:bg-indigo-100 transition disabled:opacity-50"
+                            >
+                              {isResending ? (
+                                <Loader2 className="h-3 w-3 animate-spin mr-1" />
+                              ) : (
+                                <Send className="h-3 w-3 mr-1" />
+                              )}
+                              Resend Invite
+                            </button>
+                          )}
+
+                          {/* Only allow toggle if not self and permitted by RBAC */}
+                          {!isSelf && (isSuperAdmin || (u.role !== 'SUPER_ADMIN' && u.role !== 'DISTRICT_ADMIN')) ? (
+                            <button
+                              onClick={() => handleToggleStatus(u)}
+                              className={`inline-flex items-center px-2.5 py-1 text-xs font-semibold rounded-md border transition ${
+                                u.is_active
+                                  ? 'border-rose-300 text-rose-700 hover:bg-rose-50'
+                                  : 'border-emerald-300 text-emerald-700 hover:bg-emerald-50'
+                              }`}
+                            >
+                              {u.is_active ? 'Deactivate' : 'Activate'}
+                            </button>
+                          ) : (
+                            <span className="text-xs text-slate-400 italic">Protected</span>
+                          )}
+                        </div>
                       </td>
                     </tr>
                   );
@@ -378,7 +457,7 @@ const UserManager = () => {
 
                 {filteredUsers.length === 0 && (
                   <tr>
-                    <td colSpan="5" className="px-6 py-10 text-center text-sm text-slate-500">
+                    <td colSpan="6" className="px-6 py-10 text-center text-sm text-slate-500">
                       No user accounts match the current filters.
                     </td>
                   </tr>
@@ -418,6 +497,14 @@ const UserManager = () => {
                 </div>
               )}
 
+              {/* Automatic Credentials Notice Banner */}
+              <div className="bg-indigo-50/80 border border-indigo-200 rounded-xl p-3.5 text-xs text-indigo-900 flex items-start gap-2.5">
+                <Sparkles className="h-4 w-4 text-indigo-600 flex-shrink-0 mt-0.5" />
+                <div className="leading-relaxed">
+                  <span className="font-bold">Automated Onboarding:</span> A secure temporary password and an email with an account activation link will be automatically dispatched to the recipient.
+                </div>
+              </div>
+
               {/* Full Name */}
               <div>
                 <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
@@ -454,22 +541,32 @@ const UserManager = () => {
                 </div>
               </div>
 
-              {/* Password */}
-              <div>
-                <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
-                  Password <span className="text-rose-500">*</span>
-                </label>
-                <div className="relative">
-                  <Lock className="h-4 w-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-                  <input 
-                    type="password" 
-                    required
-                    placeholder="Enter secure password"
-                    value={formData.password}
-                    onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                    className="w-full pl-9 pr-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                  />
+              {/* Optional Custom Password Toggle */}
+              <div className="pt-1">
+                <div className="flex items-center justify-between">
+                  <label className="text-xs font-semibold text-slate-700">
+                    Custom Initial Password (Optional)
+                  </label>
+                  <button
+                    type="button"
+                    onClick={() => setUseCustomPassword(!useCustomPassword)}
+                    className="text-xs text-indigo-600 hover:text-indigo-800 font-medium"
+                  >
+                    {useCustomPassword ? 'Use Auto-Generated' : 'Specify Manually'}
+                  </button>
                 </div>
+                {useCustomPassword && (
+                  <div className="relative mt-2">
+                    <Lock className="h-4 w-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                    <input 
+                      type="password" 
+                      placeholder="Enter custom initial password (min 6 chars)"
+                      value={formData.password}
+                      onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                      className="w-full pl-9 pr-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                  </div>
+                )}
               </div>
 
               {/* Role Selection */}
@@ -483,19 +580,21 @@ const UserManager = () => {
                     setFormData({ 
                       ...formData, 
                       role: e.target.value,
-                      centre_id: '' 
+                      centre_id: '',
+                      district_id: e.target.value === 'SUPER_ADMIN' ? '' : formData.district_id
                     });
                   }}
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
+                  {isSuperAdmin && <option value="SUPER_ADMIN">Super Admin</option>}
                   {isSuperAdmin && <option value="DISTRICT_ADMIN">District Admin</option>}
                   <option value="PHC_STAFF">PHC Staff</option>
                   <option value="CHC_STAFF">CHC Staff</option>
                 </select>
               </div>
 
-              {/* District Selection (Only visible for Super Admin) */}
-              {isSuperAdmin && (
+              {/* District Selection (Only visible for Super Admin when target is not Super Admin) */}
+              {isSuperAdmin && formData.role !== 'SUPER_ADMIN' && (
                 <div>
                   <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
                     District <span className="text-rose-500">*</span>
@@ -566,10 +665,10 @@ const UserManager = () => {
                   {isSubmitting ? (
                     <>
                       <Loader2 className="h-4 w-4 animate-spin mr-2" />
-                      Creating Account...
+                      Creating Account & Emailing...
                     </>
                   ) : (
-                    'Create User'
+                    'Create User & Send Invite'
                   )}
                 </button>
               </div>
